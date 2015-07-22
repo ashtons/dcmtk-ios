@@ -5260,55 +5260,7 @@ if test $ac_cv_my_c_char_unsigned = yes ; then
 fi
 
 
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking whether right shift is unsigned" >&5
-$as_echo_n "checking whether right shift is unsigned... " >&6; }
-if ${ac_cv_my_c_rightshift_unsigned+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
 
-if test "$cross_compiling" = yes; then :
-  { { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "cannot run test program while cross compiling
-See \`config.log' for more details" "$LINENO" 5; }
-else
-  cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-/* See whether right-shift on a long is signed or not. */
-int is_shifting_signed (long arg)
-{
-  long res = arg >> 4;
-
-  if (res == -0x7F7E80CL) {	/* expected result for signed shift */
-    return 1;			/* right shift is signed */
-  }
-  /* see if unsigned-shift hack will fix it. */
-  /* we can't just test exact value since it depends on width of long... */
-  res |= (~0L) << (32-4);
-  if (res == -0x7F7E80CL) {	/* expected result now? */
-    return 0;			/* right shift is unsigned */
-  }
-  /* Right shift isn't acting as I expect it to, try it with unsigned anyway */
-  return 0;
-}
-
-int main()
-{
-  exit(is_shifting_signed(-0x7F7E80B1L));
-}
-
-_ACEOF
-if ac_fn_c_try_run "$LINENO"; then :
-  ac_cv_my_c_rightshift_unsigned=yes
-else
-  ac_cv_my_c_rightshift_unsigned=no
-fi
-rm -f core *.core core.conftest.* gmon.out bb.out conftest$ac_exeext \
-  conftest.$ac_objext conftest.beam conftest.$ac_ext
-fi
-
-
-fi
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_my_c_rightshift_unsigned" >&5
 $as_echo "$ac_cv_my_c_rightshift_unsigned" >&6; }
 if test $ac_cv_my_c_rightshift_unsigned = yes ; then
