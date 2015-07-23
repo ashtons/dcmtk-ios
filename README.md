@@ -1,6 +1,8 @@
 # dcmtk-ios
 Build DCMTK libraries for iOS
 
+This is still a work in progress, the files are generated but there are still issues with using the library
+
 http://dicom.offis.de/dcmtk.php.en
 
 Creates fat binary libraries compatible with i386/Simulator,x86_64, arm64, armv7 and armv7s
