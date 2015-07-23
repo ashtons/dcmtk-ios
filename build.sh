@@ -172,7 +172,7 @@ make install-lib
 mkdir -p $LOCAL_OUTDIR/lib
 create_outdir_lipo
 mkdir -p $GLOBAL_OUTDIR/include
-cp -rvf $LOCAL_OUTDIR/i386/include/*.h $GLOBAL_OUTDIR/include
+cp -rvf $LOCAL_OUTDIR/i386/include/dcmtk $GLOBAL_OUTDIR/include
 mkdir -p $GLOBAL_OUTDIR/lib
 cp -rvf $LOCAL_OUTDIR/lib/lib*.a $GLOBAL_OUTDIR/lib
 cd ..
