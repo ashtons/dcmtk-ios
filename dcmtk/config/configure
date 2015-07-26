@@ -784,15 +784,15 @@ bindir='${exec_prefix}/bin'
 sbindir='${exec_prefix}/sbin'
 libexecdir='${exec_prefix}/libexec'
 datarootdir='${prefix}/share'
-datadir='${datarootdir}/dcmtk'
-sysconfdir='${prefix}/etc/dcmtk'
+datadir='${datarootdir}'
+sysconfdir='${prefix}/etc'
 sharedstatedir='${prefix}/com'
 localstatedir='${prefix}/var'
 includedir='${prefix}/include'
 oldincludedir='/usr/include'
-docdir='${datarootdir}/doc/dcmtk'
+docdir='${datarootdir}/doc/${PACKAGE_TARNAME}'
 infodir='${datarootdir}/info'
-htmldir='${docdir}/html'
+htmldir='${docdir}'
 dvidir='${docdir}'
 pdfdir='${docdir}'
 psdir='${docdir}'
@@ -1327,19 +1327,19 @@ Fine tuning of the installation directories:
   --bindir=DIR            user executables [EPREFIX/bin]
   --sbindir=DIR           system admin executables [EPREFIX/sbin]
   --libexecdir=DIR        program executables [EPREFIX/libexec]
-  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc/dcmtk]
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
   --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
   --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
   --libdir=DIR            object code libraries [EPREFIX/lib]
   --includedir=DIR        C header files [PREFIX/include]
   --oldincludedir=DIR     C header files for non-gcc [/usr/include]
   --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
-  --datadir=DIR           read-only arch.-independent data [DATAROOTDIR/dcmtk]
+  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
   --infodir=DIR           info documentation [DATAROOTDIR/info]
   --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
   --mandir=DIR            man documentation [DATAROOTDIR/man]
-  --docdir=DIR            documentation root [DATAROOTDIR/doc/dcmtk]
-  --htmldir=DIR           html documentation [DOCDIR/html]
+  --docdir=DIR            documentation root [DATAROOTDIR/doc/dcmtk-3.6.1]
+  --htmldir=DIR           html documentation [DOCDIR]
   --dvidir=DIR            dvi documentation [DOCDIR]
   --pdfdir=DIR            pdf documentation [DOCDIR]
   --psdir=DIR             ps documentation [DOCDIR]
@@ -5255,15 +5255,6 @@ fi
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_my_c_char_unsigned" >&5
 $as_echo "$ac_cv_my_c_char_unsigned" >&6; }
 if test $ac_cv_my_c_char_unsigned = yes ; then
-  $as_echo "#define C_CHAR_UNSIGNED 1" >>confdefs.h
-
-fi
-
-
-
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_my_c_rightshift_unsigned" >&5
-$as_echo "$ac_cv_my_c_rightshift_unsigned" >&6; }
-if test $ac_cv_my_c_rightshift_unsigned = yes ; then
   $as_echo "#define C_CHAR_UNSIGNED 1" >>confdefs.h
 
 fi
@@ -12590,7 +12581,7 @@ if ${ac_cv_check_std_namespace+:} false; then :
 else
   ac_link_o='${CXX-g++} -o conftest $CXXFLAGS $CPPFLAGS $LDFLAGS conftest.o $LIBS 1>&5'
 cat > conftest.$ac_ext <<EOF
-#line 12641 "configure"
+#line 12584 "configure"
 #include "confdefs.h"
 
 #include <iostream>
@@ -13062,7 +13053,7 @@ if ${ac_cv_check_class_template+:} false; then :
 else
   ac_link_o='${CXX-g++} -o conftest $CXXFLAGS $CPPFLAGS $LDFLAGS conftest.o $LIBS 1>&5'
 cat > conftest.$ac_ext <<EOF
-#line 13113 "configure"
+#line 13056 "configure"
 #include "confdefs.h"
 
 template <class T>
@@ -13134,7 +13125,7 @@ if ${ac_cv_check_static_template_method+:} false; then :
 else
   ac_link_o='${CXX-g++} -o conftest $CXXFLAGS $CPPFLAGS $LDFLAGS conftest.o $LIBS 1>&5'
 cat > conftest.$ac_ext <<EOF
-#line 13185 "configure"
+#line 13128 "configure"
 #include "confdefs.h"
 
 void additive(int & i)
@@ -13206,7 +13197,7 @@ if ${ac_cv_check_function_template+:} false; then :
 else
   ac_link_o='${CXX-g++} -o conftest $CXXFLAGS $CPPFLAGS $LDFLAGS conftest.o $LIBS 1>&5'
 cat > conftest.$ac_ext <<EOF
-#line 13257 "configure"
+#line 13200 "configure"
 #include "confdefs.h"
 
 template <class T>

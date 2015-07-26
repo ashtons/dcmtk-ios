@@ -204,7 +204,7 @@ dnl -------------------------------------------------------
 AC_MY_C_INLINE
 AC_MY_C_CONST
 AC_MY_C_CHAR_UNSIGNED
-AC_MY_C_RIGHTSHIFT_UNSIGNED
+dnl AC_MY_C_RIGHTSHIFT_UNSIGNED
 
 dnl -------------------------------------------------------
 dnl Check some typedefs versus definitions in <sys/types.h>,

@@ -1,179 +1,63 @@
 #!/bin/sh
-#Based on original script found at http://pastebin.com/Pgiy3rYJ
-
 GLOBAL_OUTDIR="`pwd`/dependencies"
-LOCAL_OUTDIR="./outdir"
-DCMTK_LIB="`pwd`/dcmtk"
-
-IOS_BASE_SDK="8.4"
-IOS_DEPLOY_TGT="7.0"
+XCODE_DIR="`pwd`/xcode"
+DCMTK_DIR="`pwd`/dcmtk"
+IOS_OUTDIR="`pwd`/MinSizeRel-iphoneos"
+SIM_OUTDIR="`pwd`/MinSizeRel-iphonesimulator"
 LIPO="xcrun -sdk iphoneos lipo"
 
 setenv_all()
 {
 # Add internal libs
-export CFLAGS="-O2 $CFLAGS -I$GLOBAL_OUTDIR/include -L$GLOBAL_OUTDIR/lib"
-
-export CXX=`xcrun -find -sdk iphoneos clang++`
-export CC=`xcrun -find -sdk iphoneos clang`
-
-export LD=`xcrun -find -sdk iphoneos ld`
-export AR=`xcrun -find -sdk iphoneos ar`
-export AS=`xcrun -find -sdk iphoneos as`
-export NM=`xcrun -find -sdk iphoneos nm`
-export RANLIB=`xcrun -find -sdk iphoneos ranlib`
-export LDFLAGS="-L$SDKROOT/usr/lib/ -L$GLOBAL_OUTDIR/lib -lz"
+export CFLAGS="$CFLAGS -I$XCODE_DIR"
 
 export CPPFLAGS=$CFLAGS
 export CXXFLAGS=$CFLAGS
 }
 
-setenv_armv7()
-{
-unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
-
-export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
-            
-export SDKROOT=$DEVROOT/SDKs/iPhoneOS$IOS_BASE_SDK.sdk
-
-export CFLAGS="-arch armv7 -pipe -no-cpp-precomp -isysroot $SDKROOT -miphoneos-version-min=$IOS_DEPLOY_TGT -I$SDKROOT/usr/include/"
-
-setenv_all
-}
-
-setenv_armv7s()
-{
-unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
-
-export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
-export SDKROOT=$DEVROOT/SDKs/iPhoneOS$IOS_BASE_SDK.sdk
-
-export CFLAGS="-arch armv7s -pipe -no-cpp-precomp -isysroot $SDKROOT -miphoneos-version-min=$IOS_DEPLOY_TGT -I$SDKROOT/usr/include/"
-
-setenv_all
-}
-
-setenv_i386()
-{
-unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
-
-export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer
-export SDKROOT=$DEVROOT/SDKs/iPhoneSimulator$IOS_BASE_SDK.sdk
-
-export CFLAGS="-arch i386 -pipe -no-cpp-precomp -isysroot $SDKROOT -miphoneos-version-min=$IOS_DEPLOY_TGT"
-
-setenv_all
-}
-setenv_arm64()
-{
-unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
-
-export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
-export SDKROOT=$DEVROOT/SDKs/iPhoneOS$IOS_BASE_SDK.sdk
-
-export CFLAGS="-arch arm64 -pipe -no-cpp-precomp -isysroot $SDKROOT -miphoneos-version-min=$IOS_DEPLOY_TGT -I$SDKROOT/usr/include/"
-
-setenv_all
-}
-
-setenv_x86_64()
-{
-unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
-
-export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer
-export SDKROOT=$DEVROOT/SDKs/iPhoneSimulator$IOS_BASE_SDK.sdk
-
-export CFLAGS="-arch x86_64 -pipe -no-cpp-precomp -isysroot $SDKROOT -miphoneos-version-min=$IOS_DEPLOY_TGT"
-
-setenv_all
-}
-
 create_outdir_lipo()
 {
 echo "create_outdir_lipo"
-for lib_i386 in `find $LOCAL_OUTDIR/i386 -name "lib*\.a"`; do
-lib_armv7=`echo $lib_i386 | sed "s/i386/armv7/g"`
-lib_armv7s=`echo $lib_i386 | sed "s/i386/armv7s/g"`
-lib_arm64=`echo $lib_i386 | sed "s/i386/arm64/g"`
-lib_x86_64=`echo $lib_i386 | sed "s/i386/x86_64/g"`
-lib=`echo $lib_i386 | sed "s/i386//g"`
-${LIPO} -arch armv7 $lib_armv7 -arch armv7s $lib_armv7s -arch arm64 $lib_arm64 -arch i386 $lib_i386 -arch x86_64 $lib_x86_64 -create -output $lib
+for lib_x86_64 in `find $GLOBAL_OUTDIR/x86_64 -name "lib*\.a"`; do
+lib_armv7=`echo $lib_x86_64 | sed "s/x86_64/armv7/g"`
+lib_arm64=`echo $lib_x86_64 | sed "s/x86_64/arm64/g"`
+lib=`echo $lib_x86_64 | sed "s/x86_64//g"`
+
+${LIPO} -arch armv7 $lib_armv7 -arch arm64 $lib_arm64 -arch x86_64 $lib_x86_64 -create -output $lib
 done
 }
 
-#######################
-# DCMTK_LIB
-#######################
+mkdir -p $GLOBAL_OUTDIR/armv7 $GLOBAL_OUTDIR/arm64 $GLOBAL_OUTDIR/x86_64 $GLOBAL_OUTDIR/include/dcmtk
 
-cd $DCMTK_LIB
-rm -rf $LOCAL_OUTDIR
-mkdir -p $LOCAL_OUTDIR/armv7 $LOCAL_OUTDIR/arm64 $LOCAL_OUTDIR/armv7s $LOCAL_OUTDIR/i386
+cd $XCODE_DIR
 
-make clean 2> /dev/null
-make distclean 2> /dev/null
-echo "SETENV_i386"
-setenv_i386
-echo "CONFIGURE"
-./configure --enable-shared=no --prefix=`pwd`/$LOCAL_OUTDIR/i386 --libexecdir=`pwd`/$LOCAL_OUTDIR/i386
-echo "MAKE"
-make -j4
-echo "MAKE INSTALL"
-make install
-make install-lib
+setenv_all
 
-make clean 2> /dev/null
-make distclean 2> /dev/null
-echo "SETENV_ARMV7"
-setenv_armv7
-echo "CONFIGURE"
-./configure --host=arm-apple-darwin7 --prefix=`pwd`/$LOCAL_OUTDIR/armv7 --libexecdir=`pwd`/$LOCAL_OUTDIR/armv7
-echo "MAKE"
-make -j4
-echo "MAKE INSTALL"
-make install
-make install-lib
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos8.4' clean build ARCHS="armv7" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
+mv $IOS_OUTDIR/* $GLOBAL_OUTDIR/armv7/
 
-make clean 2> /dev/null
-make distclean 2> /dev/null
-echo "SETENV_ARMV7S"
-setenv_armv7s
-echo "CONFIGURE"
-./configure --host=arm-apple-darwin7 --enable-shared=no --prefix=`pwd`/$LOCAL_OUTDIR/armv7s --libexecdir=`pwd`/$LOCAL_OUTDIR/armv7s
-echo "MAKE"
-make -j4
-echo "MAKE INSTALL"
-make install
-make install-lib
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos8.4' clean build ARCHS="arm64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
+mv $IOS_OUTDIR/* $GLOBAL_OUTDIR/arm64/
 
-make clean 2> /dev/null
-make distclean 2> /dev/null
-echo "SETENV_ARM64"
-setenv_arm64
-echo "CONFIGURE"
-./configure --host=arm-apple-darwin7 --enable-shared=no --prefix=`pwd`/$LOCAL_OUTDIR/arm64 --libexecdir=`pwd`/$LOCAL_OUTDIR/arm64
-echo "MAKE"
-make -j4
-echo "MAKE INSTALL"
-make install
-make install-lib
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphonesimulator8.4' clean build ARCHS="x86_64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$SIM_OUTDIR
+mv $SIM_OUTDIR/* $GLOBAL_OUTDIR/x86_64/
 
-make clean 2> /dev/null
-make distclean 2> /dev/null
-echo "SETENV_x86_64"
-setenv_x86_64
-echo "CONFIGURE"
-./configure --host=arm-apple-darwin7 --enable-shared=no --prefix=`pwd`/$LOCAL_OUTDIR/x86_64 --libexecdir=`pwd`/$LOCAL_OUTDIR/x86_64
-echo "MAKE"
-make -j4
-echo "MAKE INSTALL"
-make install
-make install-lib
-
-mkdir -p $LOCAL_OUTDIR/lib
 create_outdir_lipo
-mkdir -p $GLOBAL_OUTDIR/include
-cp -rvf $LOCAL_OUTDIR/i386/include/dcmtk $GLOBAL_OUTDIR/include
-mkdir -p $GLOBAL_OUTDIR/lib
-cp -rvf $LOCAL_OUTDIR/lib/lib*.a $GLOBAL_OUTDIR/lib
-cd ..
-echo "Finished!"
+
+rm -Rf $GLOBAL_OUTDIR/armv7 $GLOBAL_OUTDIR/arm64 $GLOBAL_OUTDIR/x86_64
+
+cp -rf $XCODE_DIR/config/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmdata/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmimage/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmimgle/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmjpeg/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmjpls/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmnet/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmpstat/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmqrdb/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmrt/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmsign/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmsr/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmtls/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmwlm/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $DCMTK_DIR/dcmqrdb/include/dcmtk $GLOBAL_OUTDIR/include
