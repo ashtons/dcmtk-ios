@@ -1,7 +1,7 @@
 # dcmtk-ios
 Build DCMTK libraries for iOS
 
-This is still a work in progress, the files are generated but there are still issues with using the library
+This is still a work in progress, the files are generated but there may still be issues with using the library
 
 http://dicom.offis.de/dcmtk.php.en
 
@@ -20,7 +20,5 @@ You can test that the libraries include multiple architectures by running the fo
     
     libdcmjpeg.a: Mach-O universal binary with 5 architectures
     libdcmjpeg.a (for architecture armv7):	current ar archive random library
-    libdcmjpeg.a (for architecture armv7s):	current ar archive random library
-    libdcmjpeg.a (for architecture i386):	current ar archive random library
     libdcmjpeg.a (for architecture x86_64):	current ar archive random library
     libdcmjpeg.a (for architecture arm64):	current ar archive random library
