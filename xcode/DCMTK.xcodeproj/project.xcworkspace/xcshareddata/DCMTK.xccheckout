@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34D43D56-868D-40D2-9702-75D9ACCF725A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DCMTK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF8CF916FD49D9649986A44ED42A14B83F7E6066</key>
+		<string>https://github.com/ashtons/dcmtk-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcode/DCMTK.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF8CF916FD49D9649986A44ED42A14B83F7E6066</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ashtons/dcmtk-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF8CF916FD49D9649986A44ED42A14B83F7E6066</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF8CF916FD49D9649986A44ED42A14B83F7E6066</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dcmtk-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

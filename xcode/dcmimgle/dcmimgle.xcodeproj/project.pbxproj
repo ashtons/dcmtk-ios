@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              203631AA1D44429FAACBF012 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = EC1059C2ECCD44E99317B207 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            4CC23D8DA8174F58A38D34B8 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            0500968177E0487D82D34571 /* PBXTargetDependency */,
+                            C04259ECA4984643B702363C /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              4ED3E2BADD2C48FBB299DA1B /* RUN_TESTS */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = FC318B2C51544DE3B8088AA0 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+                     buildPhases = (
+                            C2E0F6AB04B64DCD959C41D1 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = RUN_TESTS;
+                     productName = RUN_TESTS;
+              };
+              C449D60E9B0D4766A6D2EAE5 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4150E2BAB06B47FFBB5F7989 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            6CC959BF4A084712B6AFF2E6 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B64CEF681C3A478FB861BA3A /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3EC12CB9F2B043C7A62E919E /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            5A49FB064B8F4605A33DBC23 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            3737B9BFC0F04AAE82BC6DA4 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+B4198412366143D98DDE38F0 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 790A190296AC4AA1B7EE3D39 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+ADF75376260C4EB3814FAC1A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dcmimage.cc */ = {isa = PBXBuildFile; fileRef = CB5C03EF3E014FF9A85D4904 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dcmimage.cc */; settings = { COMPILER_FLAGS = ""; }; };
+FD8C870F3C5D4E988B4D840E /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dibaslut.cc */ = {isa = PBXBuildFile; fileRef = 1AA35813B5A548DB9D1B8B63 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dibaslut.cc */; settings = { COMPILER_FLAGS = ""; }; };
+144D3A419D6240C0BF69D8E7 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diciefn.cc */ = {isa = PBXBuildFile; fileRef = 3946BB52A3084B4880649222 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diciefn.cc */; settings = { COMPILER_FLAGS = ""; }; };
+A646A08C1FFF4A0BB23AFC55 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dicielut.cc */ = {isa = PBXBuildFile; fileRef = C65BCBFDE2BA4E079D47683A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dicielut.cc */; settings = { COMPILER_FLAGS = ""; }; };
+8811DA4DF560466C841B4C6A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didislut.cc */ = {isa = PBXBuildFile; fileRef = CEF6BF5C2A2D4168B4890FA6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didislut.cc */; settings = { COMPILER_FLAGS = ""; }; };
+C535C8294B274C899283FA31 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didispfn.cc */ = {isa = PBXBuildFile; fileRef = D3FBBAB9030C4B1681E9BA94 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didispfn.cc */; settings = { COMPILER_FLAGS = ""; }; };
+BA078B7B55A34287A9B7C888 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didocu.cc */ = {isa = PBXBuildFile; fileRef = C862F975A8434CE7ABFE106C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didocu.cc */; settings = { COMPILER_FLAGS = ""; }; };
+1C5B80BBB6C44BDAA05515AE /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdfn.cc */ = {isa = PBXBuildFile; fileRef = BD3338E5875741CF8DC3C10A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdfn.cc */; settings = { COMPILER_FLAGS = ""; }; };
+2C9F85F8133D46F49B48A5EA /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdlut.cc */ = {isa = PBXBuildFile; fileRef = 0A1AE8E8D04748D084A5E4E2 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdlut.cc */; settings = { COMPILER_FLAGS = ""; }; };
+39DC8260032E4FB0B6DBBD9F /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diimage.cc */ = {isa = PBXBuildFile; fileRef = 4660694B51A84907A563D563 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diimage.cc */; settings = { COMPILER_FLAGS = ""; }; };
+2D6EFAA044324A82AD629BC2 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diinpx.cc */ = {isa = PBXBuildFile; fileRef = BCF9364785504B2E9C17F4DF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diinpx.cc */; settings = { COMPILER_FLAGS = ""; }; };
+837476F544F147AD81A823A3 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diluptab.cc */ = {isa = PBXBuildFile; fileRef = 1FE15D3C299C42D9A79BF258 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diluptab.cc */; settings = { COMPILER_FLAGS = ""; }; };
+83D76043F90B4CEDBCAA23EF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo1img.cc */ = {isa = PBXBuildFile; fileRef = BA28B68C2F5A42699F34D1E5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo1img.cc */; settings = { COMPILER_FLAGS = ""; }; };
+AD879BB2DA4041C39D656B16 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo2img.cc */ = {isa = PBXBuildFile; fileRef = 49C6645BF9834EEB8644A5BC /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo2img.cc */; settings = { COMPILER_FLAGS = ""; }; };
+A0AEBB96D95648ACB761B08A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg.cc */ = {isa = PBXBuildFile; fileRef = 1DD687731F9B4A21BEBB8537 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg.cc */; settings = { COMPILER_FLAGS = ""; }; };
+A13614E01C2D4E2C8A53F8BE /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg3.cc */ = {isa = PBXBuildFile; fileRef = 2BD6B8D7F01D44EFB03881C1 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg3.cc */; settings = { COMPILER_FLAGS = ""; }; };
+89425384E68142C8AB583253 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg4.cc */ = {isa = PBXBuildFile; fileRef = 35CBC474481B4681A5A21961 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg4.cc */; settings = { COMPILER_FLAGS = ""; }; };
+4CE47D4C12204469B4B436D9 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg5.cc */ = {isa = PBXBuildFile; fileRef = 414FC939ADE84729947C5289 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg5.cc */; settings = { COMPILER_FLAGS = ""; }; };
+4DFE60666F0A43479E1F244C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimomod.cc */ = {isa = PBXBuildFile; fileRef = 11FAFDBF35374484B597B8C5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimomod.cc */; settings = { COMPILER_FLAGS = ""; }; };
+B624AF2878FD45AF8A0051CF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoopx.cc */ = {isa = PBXBuildFile; fileRef = 536292CF596843B9BA5E3914 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoopx.cc */; settings = { COMPILER_FLAGS = ""; }; };
+0820E17502434A208B9FF25D /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimopx.cc */ = {isa = PBXBuildFile; fileRef = 8F3C640BBE5449269E013622 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimopx.cc */; settings = { COMPILER_FLAGS = ""; }; };
+E13D5052ABF74F90B5E40909 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovdat.cc */ = {isa = PBXBuildFile; fileRef = 74561468D6624BA2918DD990 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovdat.cc */; settings = { COMPILER_FLAGS = ""; }; };
+D0A2755C1238446F98B02DD0 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlay.cc */ = {isa = PBXBuildFile; fileRef = 5C661CF67FDF464B879B0203 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlay.cc */; settings = { COMPILER_FLAGS = ""; }; };
+971F528099C645658978CDF6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlimg.cc */ = {isa = PBXBuildFile; fileRef = 875DE6D994674594A9815055 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlimg.cc */; settings = { COMPILER_FLAGS = ""; }; };
+761177C612974EFBBCE07D22 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovpln.cc */ = {isa = PBXBuildFile; fileRef = FA534D61935944C69A8D9D02 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovpln.cc */; settings = { COMPILER_FLAGS = ""; }; };
+6BAB9CE04C084CAD9AE922A6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diutils.cc */ = {isa = PBXBuildFile; fileRef = 915B4418322A4D94A49CAC0F /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diutils.cc */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              7C0978C6009540FEBC478EF1 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              5C992A5C1AED43AB9CA8F0EA /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              7870D533C0C54262AA0A2B0B /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              DE19255FD49C498391EC79EA /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              09A0E9450A954CE090E4AD35 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              A80798AF56F74B29AAFF13CD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7C11F775CFBC49D59EE1674A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E91BD3DBF56941968A2E05F6;
+                     remoteInfo = dcmimgle;
+              };
+              BB56B04C5B504BABAC46405D /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7C11F775CFBC49D59EE1674A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C449D60E9B0D4766A6D2EAE5;
+                     remoteInfo = ZERO_CHECK;
+              };
+              3AC1F7FE35104B68AAE3A6FD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7C11F775CFBC49D59EE1674A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 203631AA1D44429FAACBF012;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+F2EE011119D7411BAF69331C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5791053BBC514732A58598AB /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+790A190296AC4AA1B7EE3D39 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "libsrc/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+CB5C03EF3E014FF9A85D4904 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dcmimage.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dcmimage.cc"; path = "libsrc/dcmimage.cc"; sourceTree = SOURCE_ROOT; };
+1AA35813B5A548DB9D1B8B63 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dibaslut.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dibaslut.cc"; path = "libsrc/dibaslut.cc"; sourceTree = SOURCE_ROOT; };
+3946BB52A3084B4880649222 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diciefn.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diciefn.cc"; path = "libsrc/diciefn.cc"; sourceTree = SOURCE_ROOT; };
+C65BCBFDE2BA4E079D47683A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dicielut.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dicielut.cc"; path = "libsrc/dicielut.cc"; sourceTree = SOURCE_ROOT; };
+CEF6BF5C2A2D4168B4890FA6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didislut.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "didislut.cc"; path = "libsrc/didislut.cc"; sourceTree = SOURCE_ROOT; };
+D3FBBAB9030C4B1681E9BA94 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didispfn.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "didispfn.cc"; path = "libsrc/didispfn.cc"; sourceTree = SOURCE_ROOT; };
+C862F975A8434CE7ABFE106C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didocu.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "didocu.cc"; path = "libsrc/didocu.cc"; sourceTree = SOURCE_ROOT; };
+BD3338E5875741CF8DC3C10A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdfn.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "digsdfn.cc"; path = "libsrc/digsdfn.cc"; sourceTree = SOURCE_ROOT; };
+0A1AE8E8D04748D084A5E4E2 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdlut.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "digsdlut.cc"; path = "libsrc/digsdlut.cc"; sourceTree = SOURCE_ROOT; };
+4660694B51A84907A563D563 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diimage.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diimage.cc"; path = "libsrc/diimage.cc"; sourceTree = SOURCE_ROOT; };
+BCF9364785504B2E9C17F4DF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diinpx.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diinpx.cc"; path = "libsrc/diinpx.cc"; sourceTree = SOURCE_ROOT; };
+1FE15D3C299C42D9A79BF258 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diluptab.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diluptab.cc"; path = "libsrc/diluptab.cc"; sourceTree = SOURCE_ROOT; };
+BA28B68C2F5A42699F34D1E5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo1img.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimo1img.cc"; path = "libsrc/dimo1img.cc"; sourceTree = SOURCE_ROOT; };
+49C6645BF9834EEB8644A5BC /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo2img.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimo2img.cc"; path = "libsrc/dimo2img.cc"; sourceTree = SOURCE_ROOT; };
+1DD687731F9B4A21BEBB8537 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimoimg.cc"; path = "libsrc/dimoimg.cc"; sourceTree = SOURCE_ROOT; };
+2BD6B8D7F01D44EFB03881C1 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg3.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimoimg3.cc"; path = "libsrc/dimoimg3.cc"; sourceTree = SOURCE_ROOT; };
+35CBC474481B4681A5A21961 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg4.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimoimg4.cc"; path = "libsrc/dimoimg4.cc"; sourceTree = SOURCE_ROOT; };
+414FC939ADE84729947C5289 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg5.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimoimg5.cc"; path = "libsrc/dimoimg5.cc"; sourceTree = SOURCE_ROOT; };
+11FAFDBF35374484B597B8C5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimomod.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimomod.cc"; path = "libsrc/dimomod.cc"; sourceTree = SOURCE_ROOT; };
+536292CF596843B9BA5E3914 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoopx.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimoopx.cc"; path = "libsrc/dimoopx.cc"; sourceTree = SOURCE_ROOT; };
+8F3C640BBE5449269E013622 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimopx.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dimopx.cc"; path = "libsrc/dimopx.cc"; sourceTree = SOURCE_ROOT; };
+74561468D6624BA2918DD990 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovdat.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diovdat.cc"; path = "libsrc/diovdat.cc"; sourceTree = SOURCE_ROOT; };
+5C661CF67FDF464B879B0203 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlay.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diovlay.cc"; path = "libsrc/diovlay.cc"; sourceTree = SOURCE_ROOT; };
+875DE6D994674594A9815055 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlimg.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diovlimg.cc"; path = "libsrc/diovlimg.cc"; sourceTree = SOURCE_ROOT; };
+FA534D61935944C69A8D9D02 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovpln.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diovpln.cc"; path = "libsrc/diovpln.cc"; sourceTree = SOURCE_ROOT; };
+915B4418322A4D94A49CAC0F /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diutils.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "diutils.cc"; path = "libsrc/diutils.cc"; sourceTree = SOURCE_ROOT; };
+F06495380B6A49309CFF1D65 /* dcmimgle */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libdcmimgle.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              37B5B810DBD64DEA8789ED4E  = {
+                     isa = PBXGroup;
+                     children = (
+                            DEBBBE652EF04E75B8C3A9A7 /* Sources */,
+                            4DFCD063D26C48EFA1123719 /* Resources */,
+                            A2D9BBB0F9E7450397531A2B /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              DEBBBE652EF04E75B8C3A9A7 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F5EE695F5C454437803270D1 /* ALL_BUILD */,
+                            82122D580DA647DB9AEE0942 /* ZERO_CHECK */,
+                            1A90A6F1334D4D5984375C0A /* dcmimgle */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              4DFCD063D26C48EFA1123719 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              F5EE695F5C454437803270D1 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D87AF218DBF64D628CB90675 /* CMake Rules */,
+                            F2EE011119D7411BAF69331C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              D87AF218DBF64D628CB90675 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              82122D580DA647DB9AEE0942 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            208B689DFB8844DAAAF48044 /* CMake Rules */,
+                            5791053BBC514732A58598AB /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              208B689DFB8844DAAAF48044 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1A90A6F1334D4D5984375C0A /* dcmimgle */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A0B4456E61B9430AADA71526 /* Source Files */,
+                            790A190296AC4AA1B7EE3D39 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/CMakeLists.txt */,
+                     );
+                     name = dcmimgle;
+                     sourceTree = "<group>";
+              };
+              A0B4456E61B9430AADA71526 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CB5C03EF3E014FF9A85D4904 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dcmimage.cc */,
+                            1AA35813B5A548DB9D1B8B63 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dibaslut.cc */,
+                            3946BB52A3084B4880649222 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diciefn.cc */,
+                            C65BCBFDE2BA4E079D47683A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dicielut.cc */,
+                            CEF6BF5C2A2D4168B4890FA6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didislut.cc */,
+                            D3FBBAB9030C4B1681E9BA94 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didispfn.cc */,
+                            C862F975A8434CE7ABFE106C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didocu.cc */,
+                            BD3338E5875741CF8DC3C10A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdfn.cc */,
+                            0A1AE8E8D04748D084A5E4E2 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdlut.cc */,
+                            4660694B51A84907A563D563 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diimage.cc */,
+                            BCF9364785504B2E9C17F4DF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diinpx.cc */,
+                            1FE15D3C299C42D9A79BF258 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diluptab.cc */,
+                            BA28B68C2F5A42699F34D1E5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo1img.cc */,
+                            49C6645BF9834EEB8644A5BC /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo2img.cc */,
+                            1DD687731F9B4A21BEBB8537 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg.cc */,
+                            2BD6B8D7F01D44EFB03881C1 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg3.cc */,
+                            35CBC474481B4681A5A21961 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg4.cc */,
+                            414FC939ADE84729947C5289 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg5.cc */,
+                            11FAFDBF35374484B597B8C5 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimomod.cc */,
+                            536292CF596843B9BA5E3914 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoopx.cc */,
+                            8F3C640BBE5449269E013622 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimopx.cc */,
+                            74561468D6624BA2918DD990 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovdat.cc */,
+                            5C661CF67FDF464B879B0203 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlay.cc */,
+                            875DE6D994674594A9815055 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlimg.cc */,
+                            FA534D61935944C69A8D9D02 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovpln.cc */,
+                            915B4418322A4D94A49CAC0F /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diutils.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              A2D9BBB0F9E7450397531A2B /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F06495380B6A49309CFF1D65 /* dcmimgle */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E91BD3DBF56941968A2E05F6 /* dcmimgle */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 1E1B180C5EC2409C8039AE27 /* Build configuration list for PBXNativeTarget "dcmimgle" */;
+                     buildPhases = (
+                            B1974B118E844F52988D8C69 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = dcmimgle;
+                     productName = dcmimgle;
+                     productReference = F06495380B6A49309CFF1D65 /* dcmimgle */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              7C11F775CFBC49D59EE1674A /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = EC65B93FC942431AB183D498 /* Build configuration list for PBXProject  "dcmimgle" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            5C992A5C1AED43AB9CA8F0EA /* Debug */,
+                            7870D533C0C54262AA0A2B0B /* Release */,
+                            DE19255FD49C498391EC79EA /* MinSizeRel */,
+                            09A0E9450A954CE090E4AD35 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 37B5B810DBD64DEA8789ED4E;
+                     projectDirPath = "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle";
+                     projectRoot = "";
+                     targets = (
+                            203631AA1D44429FAACBF012 /* ALL_BUILD */,
+                            4ED3E2BADD2C48FBB299DA1B /* RUN_TESTS */,
+                            C449D60E9B0D4766A6D2EAE5 /* ZERO_CHECK */,
+                            B64CEF681C3A478FB861BA3A /* install */,
+                            E91BD3DBF56941968A2E05F6 /* dcmimgle */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              3DFF700D9CB04C19B9825A3E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              4CC23D8DA8174F58A38D34B8 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle -f /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              01FC8F24A0F14D39AE5040D6 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C2E0F6AB04B64DCD959C41D1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle -f /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7EFDDC4EC56F463CAA37EAE5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6CC959BF4A084712B6AFF2E6 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle -f /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5B27C6546FF94455A6D73628 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5A49FB064B8F4605A33DBC23 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle -f /Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              B1974B118E844F52988D8C69 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            ADF75376260C4EB3814FAC1A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dcmimage.cc */,
+                            FD8C870F3C5D4E988B4D840E /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dibaslut.cc */,
+                            144D3A419D6240C0BF69D8E7 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diciefn.cc */,
+                            A646A08C1FFF4A0BB23AFC55 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dicielut.cc */,
+                            8811DA4DF560466C841B4C6A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didislut.cc */,
+                            C535C8294B274C899283FA31 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didispfn.cc */,
+                            BA078B7B55A34287A9B7C888 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/didocu.cc */,
+                            1C5B80BBB6C44BDAA05515AE /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdfn.cc */,
+                            2C9F85F8133D46F49B48A5EA /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/digsdlut.cc */,
+                            39DC8260032E4FB0B6DBBD9F /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diimage.cc */,
+                            2D6EFAA044324A82AD629BC2 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diinpx.cc */,
+                            837476F544F147AD81A823A3 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diluptab.cc */,
+                            83D76043F90B4CEDBCAA23EF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo1img.cc */,
+                            AD879BB2DA4041C39D656B16 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimo2img.cc */,
+                            A0AEBB96D95648ACB761B08A /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg.cc */,
+                            A13614E01C2D4E2C8A53F8BE /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg3.cc */,
+                            89425384E68142C8AB583253 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg4.cc */,
+                            4CE47D4C12204469B4B436D9 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoimg5.cc */,
+                            4DFE60666F0A43479E1F244C /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimomod.cc */,
+                            B624AF2878FD45AF8A0051CF /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimoopx.cc */,
+                            0820E17502434A208B9FF25D /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/dimopx.cc */,
+                            E13D5052ABF74F90B5E40909 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovdat.cc */,
+                            D0A2755C1238446F98B02DD0 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlay.cc */,
+                            971F528099C645658978CDF6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovlimg.cc */,
+                            761177C612974EFBBCE07D22 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diovpln.cc */,
+                            6BAB9CE04C084CAD9AE922A6 /* /Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/libsrc/diutils.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              0500968177E0487D82D34571 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E91BD3DBF56941968A2E05F6 /* dcmimgle */;
+                     targetProxy = A80798AF56F74B29AAFF13CD /* PBXContainerItemProxy */;
+              };
+              C04259ECA4984643B702363C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C449D60E9B0D4766A6D2EAE5 /* ZERO_CHECK */;
+                     targetProxy = BB56B04C5B504BABAC46405D /* PBXContainerItemProxy */;
+              };
+              3737B9BFC0F04AAE82BC6DA4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 203631AA1D44429FAACBF012 /* ALL_BUILD */;
+                     targetProxy = 3AC1F7FE35104B68AAE3A6FD /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              6CE41E672DFB455291E69B32 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/build";
+                     };
+                     name = Debug;
+              };
+              34EB7E09638D48F58B43836E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/build";
+                     };
+                     name = Release;
+              };
+              C6CEBE0B1CBC499BB068A9D4 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/build";
+                     };
+                     name = MinSizeRel;
+              };
+              719C002D5BD34C9A8F4463CF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              BA2FB502640545DB907FC5B6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              5600C8E2587648E1A10E6FD5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              DE6F8D5B90F349A4BE02CEB9 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              6D5D59AD9705482D9B4D0FB1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              40487FC63F45408FA1DA1BD3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              BFD3891B6280461294B40C8A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              2D31ABFD96D64936B5AE1467 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              725C1D33F7E84021BA2BD5E1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E7FD9FE23A3E4DAFBF7BB69A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              3D4D428199EA4262BC038C89 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              5E095B82E7D84F1CB5D82694 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              AE9DF7B69FE14AF8ACEDC8B2 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              FABECA2CB4D54D73BD41853B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              C95BC06EA33D4CBA8A20C553 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              B9964A0D6511489182C45CD1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              B0510AB90B0648F6B7F0C9F8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3A42785271274F04A457BC60 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/seanashton/src/dcmtk-ios/xcode/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", dcmimgle_EXPORTS, USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmimgle;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              C51AC653327B4756B77DE610 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/seanashton/src/dcmtk-ios/xcode/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", dcmimgle_EXPORTS, USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmimgle;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              59DDFF1B205F43F1A0275410 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/seanashton/src/dcmtk-ios/xcode/lib/MinSizeRel";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", dcmimgle_EXPORTS, USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmimgle;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              F41AC59FA52A40E485E79647 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/seanashton/src/dcmtk-ios/xcode/lib/RelWithDebInfo";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", dcmimgle_EXPORTS, USE_NULL_SAFE_OFSTRING, DCMTK_BUILD_IN_PROGRESS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/src/dcmtk-ios/xcode/config/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/ofstd/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/oflog/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmdata/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimgle/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmimage/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpeg/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmjpls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmtls/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmnet/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsr/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmsign/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmwlm/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmqrdb/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmpstat/include", "/Users/seanashton/src/dcmtk-ios/dcmtk/dcmrt/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmimgle;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/src/dcmtk-ios/xcode/dcmimgle/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              EC65B93FC942431AB183D498 /* Build configuration list for PBXProject  "dcmimgle" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6CE41E672DFB455291E69B32 /* Debug */,
+                            34EB7E09638D48F58B43836E /* Release */,
+                            C6CEBE0B1CBC499BB068A9D4 /* MinSizeRel */,
+                            719C002D5BD34C9A8F4463CF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              EC1059C2ECCD44E99317B207 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BA2FB502640545DB907FC5B6 /* Debug */,
+                            5600C8E2587648E1A10E6FD5 /* Release */,
+                            DE6F8D5B90F349A4BE02CEB9 /* MinSizeRel */,
+                            6D5D59AD9705482D9B4D0FB1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FC318B2C51544DE3B8088AA0 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            40487FC63F45408FA1DA1BD3 /* Debug */,
+                            BFD3891B6280461294B40C8A /* Release */,
+                            2D31ABFD96D64936B5AE1467 /* MinSizeRel */,
+                            725C1D33F7E84021BA2BD5E1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4150E2BAB06B47FFBB5F7989 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E7FD9FE23A3E4DAFBF7BB69A /* Debug */,
+                            3D4D428199EA4262BC038C89 /* Release */,
+                            5E095B82E7D84F1CB5D82694 /* MinSizeRel */,
+                            AE9DF7B69FE14AF8ACEDC8B2 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3EC12CB9F2B043C7A62E919E /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FABECA2CB4D54D73BD41853B /* Debug */,
+                            C95BC06EA33D4CBA8A20C553 /* Release */,
+                            B9964A0D6511489182C45CD1 /* MinSizeRel */,
+                            B0510AB90B0648F6B7F0C9F8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1E1B180C5EC2409C8039AE27 /* Build configuration list for PBXNativeTarget "dcmimgle" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3A42785271274F04A457BC60 /* Debug */,
+                            C51AC653327B4756B77DE610 /* Release */,
+                            59DDFF1B205F43F1A0275410 /* MinSizeRel */,
+                            F41AC59FA52A40E485E79647 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 7C11F775CFBC49D59EE1674A;
+}
