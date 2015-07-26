@@ -5,7 +5,7 @@ This is still a work in progress, the files are generated but there may still be
 
 http://dicom.offis.de/dcmtk.php.en
 
-Creates fat binary libraries compatible with i386/Simulator,x86_64, arm64, armv7 and armv7s
+Creates fat binary libraries compatible with Simulator (x86_64), arm64 and armv7
 
 ./build.sh
 
