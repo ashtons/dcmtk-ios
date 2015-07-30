@@ -1,0 +1,1318 @@
+Determining if the include file fstream.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2907718519" "-configuration" "Debug"
+2015-07-13 12:18:28.222 xcodebuild[29932:212901] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:28.223 xcodebuild[29932:212901] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2907718519 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/cmTryCompileExec2907718519.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'fstream.h' file not found
+#include <fstream.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2907718519.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec933431356" "-configuration" "Debug"
+2015-07-13 12:18:29.454 xcodebuild[29970:213012] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:29.455 xcodebuild[29970:213012] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec933431356 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/cmTryCompileExec933431356.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec933431356.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2882956709" "-configuration" "Debug"
+2015-07-13 12:18:30.273 xcodebuild[29995:213084] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:30.274 xcodebuild[29995:213084] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2882956709 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/cmTryCompileExec2882956709.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2882956709.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file iomanip.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec903998344" "-configuration" "Debug"
+2015-07-13 12:18:31.742 xcodebuild[30033:213199] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:31.743 xcodebuild[30033:213199] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec903998344 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/cmTryCompileExec903998344.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'iomanip.h' file not found
+#include <iomanip.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec903998344.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file iostream.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec561847892" "-configuration" "Debug"
+2015-07-13 12:18:32.775 xcodebuild[30058:213273] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:32.776 xcodebuild[30058:213273] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec561847892 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/cmTryCompileExec561847892.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'iostream.h' file not found
+#include <iostream.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec561847892.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec153160577" "-configuration" "Debug"
+2015-07-13 12:18:33.180 xcodebuild[30071:213321] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:33.180 xcodebuild[30071:213321] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec153160577 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/cmTryCompileExec153160577.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec153160577.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file png.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec4115464116" "-configuration" "Debug"
+2015-07-13 12:18:34.017 xcodebuild[30097:213399] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:34.018 xcodebuild[30097:213399] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec4115464116 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/cmTryCompileExec4115464116.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'png.h' file not found
+#include <png.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4115464116.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1032724278" "-configuration" "Debug"
+2015-07-13 12:18:35.262 xcodebuild[30135:213509] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:35.263 xcodebuild[30135:213509] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1032724278 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/cmTryCompileExec1032724278.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1032724278.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file new.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3808118035" "-configuration" "Debug"
+2015-07-13 12:18:36.104 xcodebuild[30160:213579] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:36.105 xcodebuild[30160:213579] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3808118035 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/cmTryCompileExec3808118035.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'new.h' file not found
+#include <new.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3808118035.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file sstream.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3314167760" "-configuration" "Debug"
+2015-07-13 12:18:38.014 xcodebuild[30211:213794] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:38.015 xcodebuild[30211:213794] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3314167760 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/cmTryCompileExec3314167760.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sstream.h' file not found
+#include <sstream.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3314167760.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file stat.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1267068041" "-configuration" "Debug"
+2015-07-13 12:18:38.450 xcodebuild[30224:213882] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:38.451 xcodebuild[30224:213882] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1267068041 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/cmTryCompileExec1267068041.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'stat.h' file not found
+#include <stat.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1267068041.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file strstream.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1116075080" "-configuration" "Debug"
+2015-07-13 12:18:40.604 xcodebuild[30288:214097] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:40.605 xcodebuild[30288:214097] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1116075080 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/cmTryCompileExec1116075080.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'strstream.h' file not found
+#include <strstream.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1116075080.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file strstrea.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec917106346" "-configuration" "Debug"
+2015-07-13 12:18:41.666 xcodebuild[30314:214193] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:41.667 xcodebuild[30314:214193] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec917106346 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/cmTryCompileExec917106346.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'strstrea.h' file not found
+#include <strstrea.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec917106346.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file synch.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2854250101" "-configuration" "Debug"
+2015-07-13 12:18:42.091 xcodebuild[30326:214260] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:42.092 xcodebuild[30326:214260] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2854250101 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/cmTryCompileExec2854250101.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'synch.h' file not found
+#include <synch.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2854250101.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1833496633" "-configuration" "Debug"
+2015-07-13 12:18:43.785 xcodebuild[30378:214430] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:43.786 xcodebuild[30378:214430] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1833496633 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/cmTryCompileExec1833496633.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1833496633.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file sys/utime.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2176415518" "-configuration" "Debug"
+2015-07-13 12:18:45.941 xcodebuild[30442:214668] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:45.942 xcodebuild[30442:214668] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2176415518 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/cmTryCompileExec2176415518.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sys/utime.h' file not found
+#include <sys/utime.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2176415518.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file thread.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2180828315" "-configuration" "Debug"
+2015-07-13 12:18:47.659 xcodebuild[30493:214886] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:47.660 xcodebuild[30493:214886] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2180828315 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/cmTryCompileExec2180828315.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'thread.h' file not found
+#include <thread.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2180828315.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file unix.h exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1889673377" "-configuration" "Debug"
+2015-07-13 12:18:49.342 xcodebuild[30545:215080] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:49.343 xcodebuild[30545:215080] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1889673377 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/cmTryCompileExec1889673377.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'unix.h' file not found
+#include <unix.h>
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1889673377.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the function cuserid exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3498962563" "-configuration" "Debug"
+2015-07-13 12:18:59.174 xcodebuild[30845:216018] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:18:59.175 xcodebuild[30845:216018] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3498962563 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/cmTryCompileExec3498962563.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=cuserid -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec3498962563 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/cmTryCompileExec3498962563.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3498962563.build/Objects-normal/x86_64/cmTryCompileExec3498962563_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3498962563
+Undefined symbols for architecture x86_64:
+  "_cuserid", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec3498962563 normal x86_64
+(1 failure)
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2153294395" "-configuration" "Debug"
+2015-07-13 12:19:00.475 xcodebuild[30885:216215] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:00.476 xcodebuild[30885:216215] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2153294395 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/cmTryCompileExec2153294395.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=_doprnt -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2153294395 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/cmTryCompileExec2153294395.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2153294395.build/Objects-normal/x86_64/cmTryCompileExec2153294395_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2153294395
+Undefined symbols for architecture x86_64:
+  "__doprnt", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec2153294395 normal x86_64
+(1 failure)
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2232337990" "-configuration" "Debug"
+2015-07-13 12:19:07.186 xcodebuild[31096:216941] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:07.187 xcodebuild[31096:216941] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec2232337990 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/cmTryCompileExec2232337990.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=itoa -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2232337990 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/cmTryCompileExec2232337990.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2232337990.build/Objects-normal/x86_64/cmTryCompileExec2232337990_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2232337990
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec2232337990 normal x86_64
+(1 failure)
+
+
+Determining if the function sysinfo exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec806142874" "-configuration" "Debug"
+2015-07-13 12:19:17.362 xcodebuild[31421:217998] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:17.364 xcodebuild[31421:217998] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec806142874 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/cmTryCompileExec806142874.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=sysinfo -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec806142874 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/cmTryCompileExec806142874.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec806142874.build/Objects-normal/x86_64/cmTryCompileExec806142874_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec806142874
+Undefined symbols for architecture x86_64:
+  "_sysinfo", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec806142874 normal x86_64
+(1 failure)
+
+
+Determining if the function _findfirst exists failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec562947651" "-configuration" "Debug"
+2015-07-13 12:19:19.920 xcodebuild[31500:218271] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:19.921 xcodebuild[31500:218271] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec562947651 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/cmTryCompileExec562947651.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=_findfirst -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec562947651 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/cmTryCompileExec562947651.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec562947651.build/Objects-normal/x86_64/cmTryCompileExec562947651_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec562947651
+Undefined symbols for architecture x86_64:
+  "__findfirst", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec562947651 normal x86_64
+(1 failure)
+
+
+Determining if the isinf exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec680182304" "-configuration" "Debug"
+2015-07-13 12:19:20.375 xcodebuild[31513:218341] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:20.376 xcodebuild[31513:218341] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec680182304 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/cmTryCompileExec680182304.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: use of undeclared identifier 'isinf'
+isinf;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec680182304.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+isinf;return 0;
+}
+
+Determining if the isnan exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1463248722" "-configuration" "Debug"
+2015-07-13 12:19:20.862 xcodebuild[31525:218382] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:20.863 xcodebuild[31525:218382] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1463248722 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/cmTryCompileExec1463248722.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: use of undeclared identifier 'isnan'
+isnan;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463248722.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+isnan;return 0;
+}
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1437833153" "-configuration" "Debug"
+2015-07-13 12:19:29.812 xcodebuild[31790:219242] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:29.813 xcodebuild[31790:219242] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1437833153 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/cmTryCompileExec1437833153.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: use of undeclared identifier '_stricmp'
+_stricmp;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1437833153.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+_stricmp;return 0;
+}
+
+Determining if the std::ios_base::openmode definition exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3524307045" "-configuration" "Debug"
+2015-07-13 12:19:34.669 xcodebuild[31931:219737] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:34.670 xcodebuild[31931:219737] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3524307045 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/cmTryCompileExec3524307045.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: use of undeclared identifier 'std'
+std::ios_base::openmode definition;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3524307045.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+std::ios_base::openmode definition;return 0;
+}
+
+Determining if the uchar definition exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec4030255577" "-configuration" "Debug"
+2015-07-13 12:19:35.603 xcodebuild[31957:219814] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:35.604 xcodebuild[31957:219814] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec4030255577 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/cmTryCompileExec4030255577.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: unknown type name 'uchar'
+uchar definition;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4030255577.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+uchar definition;return 0;
+}
+
+Determining if the ulong definition exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1517403275" "-configuration" "Debug"
+2015-07-13 12:19:36.998 xcodebuild[31997:219929] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:36.998 xcodebuild[31997:219929] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1517403275 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/cmTryCompileExec1517403275.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: unknown type name 'ulong'
+ulong definition;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1517403275.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+ulong definition;return 0;
+}
+
+Determining if the longlong definition exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec831277712" "-configuration" "Debug"
+2015-07-13 12:19:37.454 xcodebuild[32009:219964] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:37.455 xcodebuild[32009:219964] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec831277712 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/cmTryCompileExec831277712.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: unknown type name 'longlong'
+longlong definition;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec831277712.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+longlong definition;return 0;
+}
+
+Determining if the ulonglong definition exist failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1130609419" "-configuration" "Debug"
+2015-07-13 12:19:37.894 xcodebuild[32021:219999] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:37.895 xcodebuild[32021:219999] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1130609419 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/cmTryCompileExec1130609419.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:22:1: error: unknown type name 'ulonglong'
+ulonglong definition;return 0;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1130609419.build/Objects-normal/x86_64/CheckSymbolExists.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+ulonglong definition;return 0;
+}
+
+Determining if std::ios::nocreate is supported failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec3559998397" "-configuration" "Debug"
+2015-07-13 12:19:41.496 xcodebuild[32127:220645] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:41.497 xcodebuild[32127:220645] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec3559998397 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/cmTryCompileExec3559998397.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc:7:40: error: no member named 'nocreate' in 'std::__1::basic_ios<char>'
+  std::ifstream file("name", std::ios::nocreate);
+                             ~~~~~~~~~~^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3559998397.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Determining if socket functions accept an int* argument failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec1448364304" "-configuration" "Debug"
+2015-07-13 12:19:42.161 xcodebuild[32139:220682] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:42.162 xcodebuild[32139:220682] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec1448364304 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/cmTryCompileExec1448364304.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/dcmtkTestSocketIntP.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/dcmtkTestSocketIntP.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:21:9: error: no matching function for call to 'accept'
+    i = accept(1, addr, &addrlen);
+        ^~~~~~
+In file included from /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:8:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/sys/socket.h:560:5: note: candidate function not viable: no known conversion from 'int *' to 'socklen_t *' (aka 'unsigned int *') for 3rd argument
+int     accept(int, struct sockaddr * __restrict, socklen_t * __restrict)
+        ^
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:22:9: error: no matching function for call to 'getsockopt'
+    i = getsockopt(0, 0, 0, 0, &optlen);
+        ^~~~~~~~~~
+In file included from /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:8:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/sys/socket.h:568:5: note: candidate function not viable: no known conversion from 'int *' to 'socklen_t *' (aka 'unsigned int *') for 5th argument
+int     getsockopt(int, int, int, void * __restrict, socklen_t * __restrict);
+        ^
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1448364304.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Determining if select() accepts an int* argument failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec4056551016" "-configuration" "Debug"
+2015-07-13 12:19:42.591 xcodebuild[32152:220745] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:42.591 xcodebuild[32152:220745] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec4056551016 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/cmTryCompileExec4056551016.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/dcmtkTestSelectIntP.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/dcmtkTestSelectIntP.dia -c /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o
+/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc:19:9: error: use of undeclared identifier 'select'
+    i = select(1, &fds, &fds, &fds, 0);
+        ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4056551016.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Determining if the function sem_init exists in the rt failed with the following output:
+Change Dir: /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec832701512" "-configuration" "Debug"
+2015-07-13 12:19:43.457 xcodebuild[32178:220819] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2015-07-13 12:19:43.457 xcodebuild[32178:220819] [MT] PluginLoading: Required plug-in compatibility UUID 7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/SparkInspectorXcodePlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTryCompileExec832701512 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64
+write-file /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/cmTryCompileExec832701512.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/CheckFunctionExists.o /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/DerivedSources/x86_64 -I/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=sem_init -MMD -MT dependencies -MF /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Users/seanashton/Applications/CMake.app/Contents/share/cmake-3.2/Modules/CheckFunctionExists.c -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec832701512 normal x86_64
+    cd /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -F/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/cmTryCompileExec832701512.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lrt -Xlinker -dependency_info -Xlinker /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec832701512.build/Objects-normal/x86_64/cmTryCompileExec832701512_dependency_info.dat -o /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec832701512
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec832701512 normal x86_64
+(1 failure)
+
+

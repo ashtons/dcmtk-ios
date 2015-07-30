@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              70F950404BB34AF8AA132ABA /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 420B698826A14EB684B1CD6D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            8E71B2D2417A49E4A03CBFD8 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            3A64947467D94275AF78A5A8 /* PBXTargetDependency */,
+                            621A9E25EA1F42D2B55166C2 /* PBXTargetDependency */,
+                            0597B281B68540F4A252F140 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              F11CCD8660F6421D84B28675 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E8B783A464B74879BEC486F3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            54C2672406AD449CAA03B8D6 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              547A1EA038254480A3F49C63 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F018DB9798FD49869D720AB8 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            AD1593ACE41A4A2EB9E7DC98 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            DF69B2C19E5249F8A1C9F87A /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+C2E54E80FF5B406B9BCD3AAF /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C2587BC9B7014E4794BE678E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+5634AA23D4B2488B96D835B6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/dcsignat.cc */ = {isa = PBXBuildFile; fileRef = EC5B22964CE04B9999D022FE /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/dcsignat.cc */; settings = { COMPILER_FLAGS = ""; }; };
+C39394170B7E4EC4AD001427 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siautopr.cc */ = {isa = PBXBuildFile; fileRef = 5216FE25A84B460D9B6D775E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siautopr.cc */; settings = { COMPILER_FLAGS = ""; }; };
+F3CB524464B64473A9207919 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sibrsapr.cc */ = {isa = PBXBuildFile; fileRef = 0B2E75CD07BE4B2181FA5D56 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sibrsapr.cc */; settings = { COMPILER_FLAGS = ""; }; };
+849599D038984B9AB6F01A31 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicert.cc */ = {isa = PBXBuildFile; fileRef = 6CEA1A69FADC4D36BC295112 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicert.cc */; settings = { COMPILER_FLAGS = ""; }; };
+F8673CBAC4FF41C69B8D86B0 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicertvf.cc */ = {isa = PBXBuildFile; fileRef = 049FBD8C9DB347E1A1422C72 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicertvf.cc */; settings = { COMPILER_FLAGS = ""; }; };
+46889A88549241EEA58E0A4F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicreapr.cc */ = {isa = PBXBuildFile; fileRef = 5F6BEB52E48B4A538F7BA942 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicreapr.cc */; settings = { COMPILER_FLAGS = ""; }; };
+302AE101F2324A39B2EA092F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sidsa.cc */ = {isa = PBXBuildFile; fileRef = F1FFF1D3AC3E4B0D9B2D0BB6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sidsa.cc */; settings = { COMPILER_FLAGS = ""; }; };
+0700B1DA002A48D5B9A95284 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simaccon.cc */ = {isa = PBXBuildFile; fileRef = DABA502C99A143F2956BA864 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simaccon.cc */; settings = { COMPILER_FLAGS = ""; }; };
+CA370CE2CAD9406DB3D287CC /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simd5.cc */ = {isa = PBXBuildFile; fileRef = 8E25A6D5278B47238B3AB6E0 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simd5.cc */; settings = { COMPILER_FLAGS = ""; }; };
+63F03F80B2884275B07FA073 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sinullpr.cc */ = {isa = PBXBuildFile; fileRef = 4225EFC65FD7470E96E17286 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sinullpr.cc */; settings = { COMPILER_FLAGS = ""; }; };
+2ED7EF59B1B14E2FB1814E06 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siprivat.cc */ = {isa = PBXBuildFile; fileRef = B814C06A04DD4981859BDF9F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siprivat.cc */; settings = { COMPILER_FLAGS = ""; }; };
+7C55205EF90F4B3D88E67E3D /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siripemd.cc */ = {isa = PBXBuildFile; fileRef = 19A742B4B0384C48B3C6D7C6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siripemd.cc */; settings = { COMPILER_FLAGS = ""; }; };
+05EA52DFE5B74A92B57BFF41 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sirsa.cc */ = {isa = PBXBuildFile; fileRef = 1ED32837C46547E981BEDF62 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sirsa.cc */; settings = { COMPILER_FLAGS = ""; }; };
+BA89E0F4A27B43E281F7C411 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisha1.cc */ = {isa = PBXBuildFile; fileRef = 0A9DF32E1E434B6DA5AFDDFB /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisha1.cc */; settings = { COMPILER_FLAGS = ""; }; };
+4B63AFC659614E1B84F4B649 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisprof.cc */ = {isa = PBXBuildFile; fileRef = FDFA5078BBD846338C22516C /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisprof.cc */; settings = { COMPILER_FLAGS = ""; }; };
+2403424E12334CEDAD5BFC33 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sitypes.cc */ = {isa = PBXBuildFile; fileRef = 11C1BEE003064B08BDBAB6A2 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sitypes.cc */; settings = { COMPILER_FLAGS = ""; }; };
+021A67DB626645CDBC19A71B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 13CF5D0FFA754CF3BE09897B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+4F3A863FFA1A452BB06CE9B1 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/dcmsign.cc */ = {isa = PBXBuildFile; fileRef = F4C2C55A911343BE82CE98C9 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/dcmsign.cc */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              9E81DB974FD1442A9287F641 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              D1DC8F843CE44F3BB5D15C02 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              56DC7F241F2240CEABED6260 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              B8C90318F08D4CCCA4D56DCA /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              B63C8AF7E0C34CDBAFDB3EBF /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              3C102C5B022440EABB23B49A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3F7B382A4BF14126A389978F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EC317D18097840B9B5332CF0;
+                     remoteInfo = dcmdsig;
+              };
+              4D7E4F08B25C4030BB0C1FD7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3F7B382A4BF14126A389978F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DA1B02CC917742CF9EDD2873;
+                     remoteInfo = dcmsign;
+              };
+              6912C310B34B4656B2F3D64F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3F7B382A4BF14126A389978F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F11CCD8660F6421D84B28675;
+                     remoteInfo = ZERO_CHECK;
+              };
+              DB6C5EFB96A84E22949592DD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3F7B382A4BF14126A389978F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 70F950404BB34AF8AA132ABA;
+                     remoteInfo = ALL_BUILD;
+              };
+              3A7CE30783344C57A4ABBA68 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3F7B382A4BF14126A389978F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EC317D18097840B9B5332CF0;
+                     remoteInfo = dcmdsig;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+596D1D89A85849EB86DA65EF /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B2E07A121A354DA79A7B594B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C2587BC9B7014E4794BE678E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "libsrc/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+EC5B22964CE04B9999D022FE /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/dcsignat.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dcsignat.cc"; path = "libsrc/dcsignat.cc"; sourceTree = SOURCE_ROOT; };
+5216FE25A84B460D9B6D775E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siautopr.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "siautopr.cc"; path = "libsrc/siautopr.cc"; sourceTree = SOURCE_ROOT; };
+0B2E75CD07BE4B2181FA5D56 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sibrsapr.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sibrsapr.cc"; path = "libsrc/sibrsapr.cc"; sourceTree = SOURCE_ROOT; };
+6CEA1A69FADC4D36BC295112 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicert.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sicert.cc"; path = "libsrc/sicert.cc"; sourceTree = SOURCE_ROOT; };
+049FBD8C9DB347E1A1422C72 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicertvf.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sicertvf.cc"; path = "libsrc/sicertvf.cc"; sourceTree = SOURCE_ROOT; };
+5F6BEB52E48B4A538F7BA942 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicreapr.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sicreapr.cc"; path = "libsrc/sicreapr.cc"; sourceTree = SOURCE_ROOT; };
+F1FFF1D3AC3E4B0D9B2D0BB6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sidsa.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sidsa.cc"; path = "libsrc/sidsa.cc"; sourceTree = SOURCE_ROOT; };
+DABA502C99A143F2956BA864 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simaccon.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "simaccon.cc"; path = "libsrc/simaccon.cc"; sourceTree = SOURCE_ROOT; };
+8E25A6D5278B47238B3AB6E0 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simd5.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "simd5.cc"; path = "libsrc/simd5.cc"; sourceTree = SOURCE_ROOT; };
+4225EFC65FD7470E96E17286 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sinullpr.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sinullpr.cc"; path = "libsrc/sinullpr.cc"; sourceTree = SOURCE_ROOT; };
+B814C06A04DD4981859BDF9F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siprivat.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "siprivat.cc"; path = "libsrc/siprivat.cc"; sourceTree = SOURCE_ROOT; };
+19A742B4B0384C48B3C6D7C6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siripemd.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "siripemd.cc"; path = "libsrc/siripemd.cc"; sourceTree = SOURCE_ROOT; };
+1ED32837C46547E981BEDF62 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sirsa.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sirsa.cc"; path = "libsrc/sirsa.cc"; sourceTree = SOURCE_ROOT; };
+0A9DF32E1E434B6DA5AFDDFB /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisha1.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sisha1.cc"; path = "libsrc/sisha1.cc"; sourceTree = SOURCE_ROOT; };
+FDFA5078BBD846338C22516C /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisprof.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sisprof.cc"; path = "libsrc/sisprof.cc"; sourceTree = SOURCE_ROOT; };
+11C1BEE003064B08BDBAB6A2 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sitypes.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "sitypes.cc"; path = "libsrc/sitypes.cc"; sourceTree = SOURCE_ROOT; };
+8DB5C7E9A4B644658F36B9F5 /* dcmdsig */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libdcmdsig.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+13CF5D0FFA754CF3BE09897B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "apps/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+F4C2C55A911343BE82CE98C9 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/dcmsign.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "dcmsign.cc"; path = "apps/dcmsign.cc"; sourceTree = SOURCE_ROOT; };
+DB043A999D234062BBC4D63D /* dcmsign */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = dcmsign; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              9C694FFB091F450DA8912912  = {
+                     isa = PBXGroup;
+                     children = (
+                            74744484A9214D15B7BE7A32 /* Sources */,
+                            B2FAC97088F149C7BBEB6F07 /* Resources */,
+                            2B799C36217141B2BAA2F214 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              74744484A9214D15B7BE7A32 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            80EC9247C5AB4BF6837BDC1F /* ALL_BUILD */,
+                            518632C07564439F970283DF /* ZERO_CHECK */,
+                            0DF20B9B142442AE925715D9 /* dcmdsig */,
+                            25A303C4943A41B6A75427B6 /* dcmsign */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              B2FAC97088F149C7BBEB6F07 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              80EC9247C5AB4BF6837BDC1F /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1EF6AACCE46C4ABC9F2BFB13 /* CMake Rules */,
+                            596D1D89A85849EB86DA65EF /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              1EF6AACCE46C4ABC9F2BFB13 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              518632C07564439F970283DF /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5C9F8D1C01644975B3E5F60E /* CMake Rules */,
+                            B2E07A121A354DA79A7B594B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              5C9F8D1C01644975B3E5F60E /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              0DF20B9B142442AE925715D9 /* dcmdsig */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9E4917ABDA2948E39E6898BE /* Source Files */,
+                            C2587BC9B7014E4794BE678E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/CMakeLists.txt */,
+                     );
+                     name = dcmdsig;
+                     sourceTree = "<group>";
+              };
+              9E4917ABDA2948E39E6898BE /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EC5B22964CE04B9999D022FE /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/dcsignat.cc */,
+                            5216FE25A84B460D9B6D775E /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siautopr.cc */,
+                            0B2E75CD07BE4B2181FA5D56 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sibrsapr.cc */,
+                            6CEA1A69FADC4D36BC295112 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicert.cc */,
+                            049FBD8C9DB347E1A1422C72 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicertvf.cc */,
+                            5F6BEB52E48B4A538F7BA942 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicreapr.cc */,
+                            F1FFF1D3AC3E4B0D9B2D0BB6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sidsa.cc */,
+                            DABA502C99A143F2956BA864 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simaccon.cc */,
+                            8E25A6D5278B47238B3AB6E0 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simd5.cc */,
+                            4225EFC65FD7470E96E17286 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sinullpr.cc */,
+                            B814C06A04DD4981859BDF9F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siprivat.cc */,
+                            19A742B4B0384C48B3C6D7C6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siripemd.cc */,
+                            1ED32837C46547E981BEDF62 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sirsa.cc */,
+                            0A9DF32E1E434B6DA5AFDDFB /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisha1.cc */,
+                            FDFA5078BBD846338C22516C /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisprof.cc */,
+                            11C1BEE003064B08BDBAB6A2 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sitypes.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              25A303C4943A41B6A75427B6 /* dcmsign */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F7F9B04535094B59908391CF /* Source Files */,
+                            13CF5D0FFA754CF3BE09897B /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/CMakeLists.txt */,
+                     );
+                     name = dcmsign;
+                     sourceTree = "<group>";
+              };
+              F7F9B04535094B59908391CF /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F4C2C55A911343BE82CE98C9 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/dcmsign.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              2B799C36217141B2BAA2F214 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8DB5C7E9A4B644658F36B9F5 /* dcmdsig */,
+                            DB043A999D234062BBC4D63D /* dcmsign */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              EC317D18097840B9B5332CF0 /* dcmdsig */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = EE6C305E561543CBAA2DABC6 /* Build configuration list for PBXNativeTarget "dcmdsig" */;
+                     buildPhases = (
+                            7D5CCCDD338D49D283D34C03 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = dcmdsig;
+                     productName = dcmdsig;
+                     productReference = 8DB5C7E9A4B644658F36B9F5 /* dcmdsig */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              DA1B02CC917742CF9EDD2873 /* dcmsign */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E9187787ED3843EC90CEA96E /* Build configuration list for PBXNativeTarget "dcmsign" */;
+                     buildPhases = (
+                            B3C4E092B57D45B7A4F7B8C8 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            27D45F71ECA545BB9AE5C793 /* PBXTargetDependency */,
+                     );
+                     name = dcmsign;
+                     productName = dcmsign;
+                     productReference = DB043A999D234062BBC4D63D /* dcmsign */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              3F7B382A4BF14126A389978F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 00D1404C390642B7B5948794 /* Build configuration list for PBXProject  "dcmsign" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            D1DC8F843CE44F3BB5D15C02 /* Debug */,
+                            56DC7F241F2240CEABED6260 /* Release */,
+                            B8C90318F08D4CCCA4D56DCA /* MinSizeRel */,
+                            B63C8AF7E0C34CDBAFDB3EBF /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 9C694FFB091F450DA8912912;
+                     projectDirPath = "../../dcmsign";
+                     projectRoot = "";
+                     targets = (
+                            70F950404BB34AF8AA132ABA /* ALL_BUILD */,
+                            F11CCD8660F6421D84B28675 /* ZERO_CHECK */,
+                            547A1EA038254480A3F49C63 /* install */,
+                            EC317D18097840B9B5332CF0 /* dcmdsig */,
+                            DA1B02CC917742CF9EDD2873 /* dcmsign */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              FEC61EBC31194728932B0388 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8E71B2D2417A49E4A03CBFD8 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign -f /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              27DCCE3D289148FABBCAACAE /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              54C2672406AD449CAA03B8D6 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign -f /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              63D92E40238F4121AD8901EF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              AD1593ACE41A4A2EB9E7DC98 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign -f /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              7D5CCCDD338D49D283D34C03 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            5634AA23D4B2488B96D835B6 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/dcsignat.cc */,
+                            C39394170B7E4EC4AD001427 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siautopr.cc */,
+                            F3CB524464B64473A9207919 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sibrsapr.cc */,
+                            849599D038984B9AB6F01A31 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicert.cc */,
+                            F8673CBAC4FF41C69B8D86B0 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicertvf.cc */,
+                            46889A88549241EEA58E0A4F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sicreapr.cc */,
+                            302AE101F2324A39B2EA092F /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sidsa.cc */,
+                            0700B1DA002A48D5B9A95284 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simaccon.cc */,
+                            CA370CE2CAD9406DB3D287CC /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/simd5.cc */,
+                            63F03F80B2884275B07FA073 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sinullpr.cc */,
+                            2ED7EF59B1B14E2FB1814E06 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siprivat.cc */,
+                            7C55205EF90F4B3D88E67E3D /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/siripemd.cc */,
+                            05EA52DFE5B74A92B57BFF41 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sirsa.cc */,
+                            BA89E0F4A27B43E281F7C411 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisha1.cc */,
+                            4B63AFC659614E1B84F4B649 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sisprof.cc */,
+                            2403424E12334CEDAD5BFC33 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/libsrc/sitypes.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              B3C4E092B57D45B7A4F7B8C8 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4F3A863FFA1A452BB06CE9B1 /* /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/apps/dcmsign.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              3A64947467D94275AF78A5A8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EC317D18097840B9B5332CF0 /* dcmdsig */;
+                     targetProxy = 3C102C5B022440EABB23B49A /* PBXContainerItemProxy */;
+              };
+              621A9E25EA1F42D2B55166C2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DA1B02CC917742CF9EDD2873 /* dcmsign */;
+                     targetProxy = 4D7E4F08B25C4030BB0C1FD7 /* PBXContainerItemProxy */;
+              };
+              0597B281B68540F4A252F140 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F11CCD8660F6421D84B28675 /* ZERO_CHECK */;
+                     targetProxy = 6912C310B34B4656B2F3D64F /* PBXContainerItemProxy */;
+              };
+              DF69B2C19E5249F8A1C9F87A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 70F950404BB34AF8AA132ABA /* ALL_BUILD */;
+                     targetProxy = DB6C5EFB96A84E22949592DD /* PBXContainerItemProxy */;
+              };
+              27D45F71ECA545BB9AE5C793 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EC317D18097840B9B5332CF0 /* dcmdsig */;
+                     targetProxy = 3A7CE30783344C57A4ABBA68 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              F99E984B09C441F8A225B323 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/build";
+                     };
+                     name = Debug;
+              };
+              D716568ED8DF40F3869B90ED /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/build";
+                     };
+                     name = Release;
+              };
+              E4464D843B8E45BFBC89E7EE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/build";
+                     };
+                     name = MinSizeRel;
+              };
+              4796804DD40843D7928B1D7E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              B7AD660DDAA340BEB8E78751 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              5117EA5BD3204D5D9EA456E3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              8A346E6C31924B0DB6C2AE75 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              7D0D655BA86245D78C510EC1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              5D1B2AFDA74144608B6D7FED /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              A21F8A3FC03147DB839CBB7F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              9BAE927709D44425BC59E4FD /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              43002F6F33114854974EFF79 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              417C737F3AAF48E6A53787F8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              BF4F5D9A969346DFB5A3B776 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              1775FA89322D4B248F53DF51 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              1797F1B31F414617A40F2FAA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3080D49CF24843279FF85CB7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmdsig;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              C9AB9A4F99CF4A068F66D36E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmdsig;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              D55A64271CC544F7A60A7496 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmdsig;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              CBB3DED9B53E46FDBF186AE3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmdsig;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              DFC9BE5132AE4D13B1A5B506 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            LIBRARY_SEARCH_PATHS = " /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc/Debug/libdcmdsig.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/libsrc/Debug/libdcmdata.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/Debug/liboflog.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/libsrc/Debug/libofstd.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/Debug/liboflog.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmsign;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/apps";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              01F565EB5C6A461FBADDF325 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            LIBRARY_SEARCH_PATHS = " /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc/Release/libdcmdsig.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/libsrc/Release/libdcmdata.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/Release/liboflog.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/libsrc/Release/libofstd.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/Release/liboflog.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmsign;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/apps";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              FAC644719889479D984BB3C8 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            LIBRARY_SEARCH_PATHS = " /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc/MinSizeRel/libdcmdsig.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/libsrc/MinSizeRel/libdcmdata.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/MinSizeRel/liboflog.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/libsrc/MinSizeRel/libofstd.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/MinSizeRel/liboflog.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmsign;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/apps";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              4E702484552847ED9E11A184 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/ofstd/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/oflog/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmdata/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimgle/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmimage/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpeg/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmjpls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmnet/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmpstat/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmqrdb/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsign/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmsr/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmtls/include", "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            LIBRARY_SEARCH_PATHS = " /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE        -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/libsrc/RelWithDebInfo/libdcmdsig.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmdata/libsrc/RelWithDebInfo/libdcmdata.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/RelWithDebInfo/liboflog.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/ofstd/libsrc/RelWithDebInfo/libofstd.a /Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/oflog/libsrc/RelWithDebInfo/liboflog.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmsign;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/seanashton/Documents/Developer/iOS/dcmtk-3.6.0/xcode/dcmsign/apps";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              00D1404C390642B7B5948794 /* Build configuration list for PBXProject  "dcmsign" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F99E984B09C441F8A225B323 /* Debug */,
+                            D716568ED8DF40F3869B90ED /* Release */,
+                            E4464D843B8E45BFBC89E7EE /* MinSizeRel */,
+                            4796804DD40843D7928B1D7E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              420B698826A14EB684B1CD6D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B7AD660DDAA340BEB8E78751 /* Debug */,
+                            5117EA5BD3204D5D9EA456E3 /* Release */,
+                            8A346E6C31924B0DB6C2AE75 /* MinSizeRel */,
+                            7D0D655BA86245D78C510EC1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E8B783A464B74879BEC486F3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5D1B2AFDA74144608B6D7FED /* Debug */,
+                            A21F8A3FC03147DB839CBB7F /* Release */,
+                            9BAE927709D44425BC59E4FD /* MinSizeRel */,
+                            43002F6F33114854974EFF79 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F018DB9798FD49869D720AB8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            417C737F3AAF48E6A53787F8 /* Debug */,
+                            BF4F5D9A969346DFB5A3B776 /* Release */,
+                            1775FA89322D4B248F53DF51 /* MinSizeRel */,
+                            1797F1B31F414617A40F2FAA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              EE6C305E561543CBAA2DABC6 /* Build configuration list for PBXNativeTarget "dcmdsig" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3080D49CF24843279FF85CB7 /* Debug */,
+                            C9AB9A4F99CF4A068F66D36E /* Release */,
+                            D55A64271CC544F7A60A7496 /* MinSizeRel */,
+                            CBB3DED9B53E46FDBF186AE3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E9187787ED3843EC90CEA96E /* Build configuration list for PBXNativeTarget "dcmsign" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DFC9BE5132AE4D13B1A5B506 /* Debug */,
+                            01F565EB5C6A461FBADDF325 /* Release */,
+                            FAC644719889479D984BB3C8 /* MinSizeRel */,
+                            4E702484552847ED9E11A184 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 3F7B382A4BF14126A389978F;
+}
