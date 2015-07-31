@@ -41,7 +41,6 @@
 				7FC26CD8618C475F913E9164 /* PBXTargetDependency */,
 				092A7F7FDB944A648846E6D5 /* PBXTargetDependency */,
 				9C64A8D7F8964AD18FA24749 /* PBXTargetDependency */,
-				0C4485592E3F4B11ACE901C2 /* PBXTargetDependency */,
 				D21F9EDF91054B288532E03D /* PBXTargetDependency */,
 				D1CA52E7E5334BE0B84D0651 /* PBXTargetDependency */,
 				121A28A807E44D34B94226CE /* PBXTargetDependency */,
@@ -49,17 +48,6 @@
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
-		};
-		F11CCD8660F6421D84B28675 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B283D60FA04D42BE94E52DFD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				2ED030274B574C1482AD8C34 /* CMake Rules */,
-			);
-			dependencies = (
-			);
-			name = ZERO_CHECK;
-			productName = ZERO_CHECK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -647,13 +635,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EF374043F254C28B0CEC84B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A2E2BCA01FE491694F55818 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F11CCD8660F6421D84B28675;
-			remoteInfo = ZERO_CHECK;
-		};
 		1949AD4AAA74491EA0A26482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A2E2BCA01FE491694F55818 /* Project object */;
@@ -3861,7 +3842,6 @@
 			projectRoot = "";
 			targets = (
 				70F950404BB34AF8AA132ABA /* ALL_BUILD */,
-				F11CCD8660F6421D84B28675 /* ZERO_CHECK */,
 				547A1EA038254480A3F49C63 /* install */,
 				A294A5BFE5E44300A7B8BAE9 /* ofstd */,
 				B38166760B254144BDB265B6 /* oflog */,
@@ -3887,17 +3867,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2ED030274B574C1482AD8C34 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C ./xcode -f ./xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		6E388E6523FA4749910A7CC7 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3917,7 +3886,7 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C ./xcode -f ./xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C $SRCROOT/xcode -f $SRCROOT/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -4644,11 +4613,6 @@
 			target = 382141C5B582452E9E034D34 /* dcmsr */;
 			targetProxy = E1E2A5E5C25C4870B4F9A730 /* PBXContainerItemProxy */;
 		};
-		0C4485592E3F4B11ACE901C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F11CCD8660F6421D84B28675 /* ZERO_CHECK */;
-			targetProxy = 0EF374043F254C28B0CEC84B /* PBXContainerItemProxy */;
-		};
 		121A28A807E44D34B94226CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E6FFD2CE9084404AA2BD167 /* dcmimgle */;
@@ -4762,24 +4726,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -4803,7 +4767,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmwlm;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -4830,24 +4794,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -4871,7 +4835,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = oflog;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -4892,24 +4856,24 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -4917,7 +4881,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -4944,24 +4908,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -4985,7 +4949,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpeg;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5011,24 +4975,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5044,7 +5008,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg16;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5070,24 +5034,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5103,7 +5067,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg12;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5129,24 +5093,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5170,7 +5134,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimgle;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5196,24 +5160,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5237,7 +5201,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmwlm;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5263,24 +5227,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5304,7 +5268,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimgle;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5331,24 +5295,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5372,7 +5336,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimgle;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5398,24 +5362,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5439,7 +5403,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmwlm;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5466,24 +5430,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5507,7 +5471,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmnet;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5534,24 +5498,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5575,7 +5539,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ofstd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5601,24 +5565,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5634,7 +5598,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg16;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5660,24 +5624,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5701,7 +5665,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmpstat;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5727,25 +5691,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5769,7 +5733,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = charls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5796,24 +5760,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5837,7 +5801,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmtls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5863,24 +5827,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5904,7 +5868,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmtls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5930,24 +5894,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -5963,7 +5927,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg8;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5989,24 +5953,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6030,7 +5994,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libi2d;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6056,24 +6020,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6097,56 +6061,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimgle;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		41FE01706C9F48C6955E56C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					USE_NULL_SAFE_OFSTRING,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-				);
-				INSTALL_PATH = "";
-				OTHER_CFLAGS = "  ";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6172,24 +6087,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6213,7 +6128,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmnet;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6239,24 +6154,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6280,7 +6195,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimage;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6306,25 +6221,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6348,7 +6263,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = charls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6374,24 +6289,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6415,7 +6330,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmqrdb;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6441,24 +6356,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6482,7 +6397,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpeg;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6509,24 +6424,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6550,7 +6465,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libi2d;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6576,24 +6491,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6617,7 +6532,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdata;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6644,24 +6559,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6685,7 +6600,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmsr;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6700,7 +6615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "./xcode";
+				CONFIGURATION_BUILD_DIR = ./xcode;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6710,24 +6625,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -6736,7 +6651,7 @@
 				PRODUCT_NAME = ALL_BUILD;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6763,24 +6678,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6796,7 +6711,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg16;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6806,55 +6721,6 @@
 				);
 			};
 			name = MinSizeRel;
-		};
-		51D4737AE073466F9673F3B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					USE_NULL_SAFE_OFSTRING,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-				);
-				INSTALL_PATH = "";
-				OTHER_CFLAGS = "  ";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
 		};
 		555FE28A771A4D2D9188FC13 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -6871,24 +6737,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6912,7 +6778,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmnet;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6938,24 +6804,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -6979,7 +6845,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdata;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6995,7 +6861,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "./xcode/build";
+				SYMROOT = ./xcode/build;
 			};
 			name = MinSizeRel;
 		};
@@ -7015,24 +6881,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7048,7 +6914,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg8;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7075,24 +6941,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7116,7 +6982,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdsig;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7143,24 +7009,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7184,7 +7050,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmqrdb;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7210,24 +7076,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7243,7 +7109,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg12;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7259,7 +7125,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "./xcode/build";
+				SYMROOT = ./xcode/build;
 			};
 			name = RelWithDebInfo;
 		};
@@ -7278,24 +7144,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7319,7 +7185,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmtls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7345,24 +7211,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7386,7 +7252,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ofstd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7412,24 +7278,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7453,7 +7319,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimage;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7479,24 +7345,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7520,7 +7386,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimage;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7546,25 +7412,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7588,7 +7454,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7614,24 +7480,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7655,7 +7521,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libi2d;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7681,24 +7547,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7722,7 +7588,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmsr;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7732,104 +7598,6 @@
 				);
 			};
 			name = RelWithDebInfo;
-		};
-		6D204A98FFB94C4D8B23345A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					USE_NULL_SAFE_OFSTRING,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-				);
-				INSTALL_PATH = "";
-				OTHER_CFLAGS = "  ";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		7235FC2B5F874425819E1EB6 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					USE_NULL_SAFE_OFSTRING,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-				);
-				INSTALL_PATH = "";
-				OTHER_CFLAGS = "  ";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
 		};
 		73F44B7C3A1B4687A8CBC3D8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
@@ -7847,24 +7615,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7888,7 +7656,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmimage;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7915,25 +7683,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -7957,7 +7725,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = charls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7983,24 +7751,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8024,7 +7792,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmpstat;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8050,24 +7818,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8083,7 +7851,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg12;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8099,7 +7867,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "./xcode/build";
+				SYMROOT = ./xcode/build;
 			};
 			name = Release;
 		};
@@ -8119,24 +7887,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8160,7 +7928,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdata;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8186,24 +7954,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8219,7 +7987,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg16;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8245,24 +8013,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8286,7 +8054,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmpstat;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8312,24 +8080,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8345,7 +8113,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg8;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8372,24 +8140,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8413,7 +8181,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmwlm;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8440,24 +8208,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8481,7 +8249,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmpstat;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8507,24 +8275,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8548,7 +8316,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = oflog;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8575,25 +8343,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8617,7 +8385,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8643,24 +8411,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8684,7 +8452,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmsr;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8710,24 +8478,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8751,7 +8519,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ofstd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8777,25 +8545,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8819,7 +8587,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = charls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8843,24 +8611,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -8869,7 +8637,7 @@
 				PRODUCT_NAME = ALL_BUILD;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8895,24 +8663,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -8936,7 +8704,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libi2d;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8962,24 +8730,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9003,7 +8771,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdsig;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9029,24 +8797,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9070,7 +8838,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpeg;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9086,7 +8854,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "./xcode/build";
+				SYMROOT = ./xcode/build;
 			};
 			name = Debug;
 		};
@@ -9105,24 +8873,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9146,7 +8914,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmqrdb;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9172,24 +8940,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9205,7 +8973,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg8;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9231,24 +8999,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9272,7 +9040,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdsig;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9296,24 +9064,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -9322,7 +9090,7 @@
 				PRODUCT_NAME = ALL_BUILD;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9343,24 +9111,24 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -9368,7 +9136,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9389,24 +9157,24 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -9414,7 +9182,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9440,24 +9208,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9481,7 +9249,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdsig;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9507,24 +9275,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9548,7 +9316,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmqrdb;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9574,24 +9342,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9615,7 +9383,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmdata;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9641,24 +9409,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9682,7 +9450,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpeg;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9706,24 +9474,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -9732,7 +9500,7 @@
 				PRODUCT_NAME = ALL_BUILD;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9753,24 +9521,24 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				OTHER_CFLAGS = "  ";
@@ -9778,7 +9546,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9804,24 +9572,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9845,7 +9613,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmnet;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9871,24 +9639,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9912,7 +9680,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = oflog;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -9938,25 +9706,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -9980,7 +9748,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10006,24 +9774,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10047,7 +9815,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmsr;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10073,24 +9841,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10114,7 +9882,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ofstd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10140,24 +9908,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10181,7 +9949,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = oflog;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10208,24 +9976,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10241,7 +10009,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ijg12;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10267,24 +10035,24 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10308,7 +10076,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmtls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10334,25 +10102,25 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"./xcode/include",
-					"./ofstd/include",
-					"./oflog/include",
-					"./dcmdata/include",
-					"./dcmimgle/include",
-					"./dcmimage/include",
-					"./dcmjpeg/libijg8",
-					"./dcmjpeg/libijg12",
-					"./dcmjpeg/libijg16",
-					"./dcmjpeg/include",
-					"./dcmjpls/include",
-					"./dcmnet/include",
-					"./dcmpstat/include",
-					"./dcmqrdb/include",
-					"./dcmsign/include",
-					"./dcmsr/include",
-					"./dcmtls/include",
-					"./dcmwlm/include",
-					"./dcmjpls/libcharls",
+					./xcode/include,
+					./ofstd/include,
+					./oflog/include,
+					./dcmdata/include,
+					./dcmimgle/include,
+					./dcmimage/include,
+					./dcmjpeg/libijg8,
+					./dcmjpeg/libijg12,
+					./dcmjpeg/libijg16,
+					./dcmjpeg/include,
+					./dcmjpls/include,
+					./dcmnet/include,
+					./dcmpstat/include,
+					./dcmqrdb/include,
+					./dcmsign/include,
+					./dcmsr/include,
+					./dcmtls/include,
+					./dcmwlm/include,
+					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -10376,7 +10144,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = dcmjpls;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "./xcode";
+				SYMROOT = ./xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -10551,17 +10319,6 @@
 				BFBB5BEA5E794A109D5952F8 /* Release */,
 				5B755039E06248C6BAA22424 /* MinSizeRel */,
 				B93D385221EB4FC994066034 /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		B283D60FA04D42BE94E52DFD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51D4737AE073466F9673F3B9 /* Debug */,
-				41FE01706C9F48C6955E56C5 /* Release */,
-				7235FC2B5F874425819E1EB6 /* MinSizeRel */,
-				6D204A98FFB94C4D8B23345A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
