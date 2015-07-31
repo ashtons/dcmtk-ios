@@ -1,7 +1,7 @@
 #!/bin/sh
 GLOBAL_OUTDIR="`pwd`/dependencies"
-XCODE_DIR="`pwd`/xcode"
-DCMTK_DIR="`pwd`/dcmtk"
+XCODE_DIR="`pwd`/dcmtk-3.6.0/xcode"
+DCMTK_DIR="`pwd`/dcmtk-3.6.0/"
 IOS_OUTDIR="`pwd`/MinSizeRel-iphoneos"
 SIM_OUTDIR="`pwd`/MinSizeRel-iphonesimulator"
 LIPO="xcrun -sdk iphoneos lipo"
@@ -46,18 +46,4 @@ create_outdir_lipo
 
 rm -Rf $GLOBAL_OUTDIR/armv7 $GLOBAL_OUTDIR/arm64 $GLOBAL_OUTDIR/x86_64
 
-cp -rf $XCODE_DIR/config/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmdata/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmimage/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmimgle/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmjpeg/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmjpls/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmnet/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmpstat/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmqrdb/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmrt/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmsign/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmsr/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmtls/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmwlm/include/dcmtk $GLOBAL_OUTDIR/include
-cp -rf $DCMTK_DIR/dcmqrdb/include/dcmtk $GLOBAL_OUTDIR/include
+cp -rf $XCODE_DIR/include/dcmtk $GLOBAL_OUTDIR/include
