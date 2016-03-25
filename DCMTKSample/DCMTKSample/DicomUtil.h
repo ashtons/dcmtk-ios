@@ -13,5 +13,5 @@
     
 }
 +(void) test;
-
++(NSString *)extractFirstFrame;
 @end

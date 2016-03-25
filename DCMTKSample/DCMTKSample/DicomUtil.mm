@@ -36,7 +36,7 @@
 +(void) test {
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"I_000001" ofType:@"dcm"];
     DcmDataDictionary& dict = dcmDataDict.wrlock();
-    dict.loadDictionary([[[NSBundle mainBundle] pathForResource:@"dicom" ofType:@"dic"] cStringUsingEncoding:NSASCIIStringEncoding]);
+    dict.loadDictionary([[[NSBundle mainBundle] pathForResource:@"private" ofType:@"dic"] cStringUsingEncoding:NSASCIIStringEncoding]);
     dcmDataDict.unlock();
     if (!dcmDataDict.isDictionaryLoaded()) {
         NSLog(@"Data dictionary not loaded");
@@ -92,4 +92,106 @@
     }
 }
 
++(NSString *)extractFirstFrame {
+    DcmDataDictionary& dict = dcmDataDict.wrlock();
+    dict.loadDictionary([[[NSBundle mainBundle] pathForResource:@"private" ofType:@"dic"] cStringUsingEncoding:NSASCIIStringEncoding]);
+    dcmDataDict.unlock();
+    if (!dcmDataDict.isDictionaryLoaded()) {
+        NSLog(@"Data dictionary not loaded");
+    } else {
+        NSLog(@"Data dictionary loaded!");
+    }
+    DcmRLEDecoderRegistration::registerCodecs(OFFalse /*pCreateSOPInstanceUID*/, OFFalse);
+    DJDecoderRegistration::registerCodecs(EDC_never, EUC_default, EPC_default, OFFalse);
+    DJDecoderRegistration::registerCodecs(); // register JPEG codecs
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"I_000002" ofType:@"dcm"];
+    NSString *cacheFolder = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
+    NSString *parentFolder = [cacheFolder stringByAppendingPathComponent:@"dicom"];
+    [[NSFileManager defaultManager] createDirectoryAtPath:parentFolder withIntermediateDirectories:YES attributes:nil error:nil];
+    DcmFileFormat *dfile = new DcmFileFormat();
+    
+    OFCondition cond = dfile->loadFile([filePath cStringUsingEncoding:NSASCIIStringEncoding], EXS_Unknown, EGL_withoutGL, DCM_MaxReadLength, ERM_autoDetect);
+    if (cond.bad()) {
+        NSLog(@"Something wrong loading DCM file");
+    }
+    
+    Sint32 frameCount;
+    
+    if (dfile->getDataset()->findAndGetSint32(DCM_NumberOfFrames, frameCount).bad()) {
+        frameCount = 1;
+    }
+    E_TransferSyntax xfer = dfile->getDataset()->getOriginalXfer();
+    DicomImage *di = new DicomImage(dfile, xfer, CIF_UsePartialAccessToPixelData, 0 /*frame*/,frameCount /*frame count*/);
+    if (di == NULL) {
+        NSLog(@"Out of memory");
+        return nil;
+    }
+    
+    if (di->getStatus() != EIS_Normal)
+    {
+        const char *msg = DicomImage::getString(di->getStatus());
+        NSLog(@"Some other error");
+        //        OFLOG_FATAL(dcm2pnmLogger, DicomImage::getString(di->getStatus()));
+        return nil;
+    }
+    /****/
+    DcmStack stack;
+    DcmObject *dobject = NULL;
+    OFCondition status = dfile->getDataset()->nextObject(stack, OFTrue);
+    
+    
+    dobject = stack.top();
+    
+    /****/
+    //const char *XferText = DcmXfer(xfer).getXferName();
+    const char *SOPClassUID = NULL;
+    const char *SOPInstanceUID = NULL;
+    const char *SOPClassText = NULL;
+    const char *colorModel;
+    dfile->getDataset()->findAndGetString(DCM_SOPClassUID, SOPClassUID);
+    dfile->getDataset()->findAndGetString(DCM_SOPInstanceUID, SOPInstanceUID);
+    
+    
+    colorModel = di->getString(di->getPhotometricInterpretation());
+    if (colorModel == NULL)
+        colorModel = "unknown";
+    if (SOPInstanceUID == NULL)
+        SOPInstanceUID = "not present";
+    if (SOPClassUID == NULL)
+        SOPClassText = "not present";
+    else
+        SOPClassText = dcmFindNameOfUID(SOPClassUID);
+    if (SOPClassText == NULL)
+        SOPClassText = SOPClassUID;
+    if (di->isMonochrome()) {
+        NSLog(@"Is monochrome");
+    }
+    unsigned long count;
+    
+    di->hideAllOverlays();
+    count = di->getWindowCount();
+    di->setMinMaxWindow(1);
+    NSLog(@"VOI windows in file %ld", count);
+    int frame = 1;
+    int result = 0;
+    DcmDataset *dictionary;
+    dictionary = dfile->getDataset();
+    
+    
+    
+    NSString *filename = [NSString stringWithFormat:@"frame%d.jpg",frame];
+    NSString *outputFile = [parentFolder stringByAppendingPathComponent:filename];
+    FILE *ofile = fopen([outputFile cStringUsingEncoding:NSASCIIStringEncoding], "wb");
+    DiJPEGPlugin plugin;
+    plugin.setQuality(OFstatic_cast(unsigned int, 90));
+    plugin.setSampling(ESS_422);
+    result = di->writePluginFormat(&plugin, ofile, frame);
+    fclose(ofile);
+    
+    
+    delete di;
+    DcmRLEDecoderRegistration::cleanup();
+    DJDecoderRegistration::cleanup();
+    return outputFile;
+}
 @end

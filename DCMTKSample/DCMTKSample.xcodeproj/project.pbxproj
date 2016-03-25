@@ -15,6 +15,7 @@
 		C612829D1B61CCCA00058F88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C612829B1B61CCCA00058F88 /* LaunchScreen.xib */; };
 		C61282A91B61CCCB00058F88 /* DCMTKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61282A81B61CCCB00058F88 /* DCMTKSampleTests.m */; };
 		C61285E31B61D5F300058F88 /* DicomUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = C61285E11B61D5F300058F88 /* DicomUtil.mm */; };
+		C61605C21CA5D13E003F5BE2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C61605C11CA5D13E003F5BE2 /* libz.tbd */; };
 		C68D7FF31B69DBA30026C079 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = C68D7E061B69DBA20026C079 /* CMakeLists.txt */; };
 		C68D7FF41B69DBA30026C079 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = C68D7E591B69DBA20026C079 /* CMakeLists.txt */; };
 		C68D7FF51B69DBA30026C079 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = C68D7E641B69DBA20026C079 /* CMakeLists.txt */; };
@@ -50,7 +51,6 @@
 		C69348FB1B649E62008CD335 /* libijg16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69348E61B649E62008CD335 /* libijg16.a */; };
 		C69348FC1B649E62008CD335 /* liboflog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69348E71B649E62008CD335 /* liboflog.a */; };
 		C69348FD1B649E62008CD335 /* libofstd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69348E81B649E62008CD335 /* libofstd.a */; };
-		C6EDB6201B61D9C800796B1B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EDB61F1B61D9C800796B1B /* libz.dylib */; };
 		C6EDB6241B61DB3100796B1B /* I_000001.dcm in Resources */ = {isa = PBXBuildFile; fileRef = C6EDB6221B61DB3100796B1B /* I_000001.dcm */; };
 		C6EDB6251B61DB3100796B1B /* I_000002.dcm in Resources */ = {isa = PBXBuildFile; fileRef = C6EDB6231B61DB3100796B1B /* I_000002.dcm */; };
 		C6EDB6291B61E86C00796B1B /* dicom.dic in Resources */ = {isa = PBXBuildFile; fileRef = C6EDB6271B61E86C00796B1B /* dicom.dic */; };
@@ -83,6 +83,7 @@
 		C61282A81B61CCCB00058F88 /* DCMTKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMTKSampleTests.m; sourceTree = "<group>"; };
 		C61285E11B61D5F300058F88 /* DicomUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DicomUtil.mm; sourceTree = "<group>"; };
 		C61285E21B61D5F300058F88 /* DicomUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicomUtil.h; sourceTree = "<group>"; };
+		C61605C11CA5D13E003F5BE2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C68D7E041B69DBA20026C079 /* osconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osconfig.h; sourceTree = "<group>"; };
 		C68D7E061B69DBA20026C079 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		C68D7E071B69DBA20026C079 /* cmdlnarg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdlnarg.h; sourceTree = "<group>"; };
@@ -578,7 +579,6 @@
 		C69348E61B649E62008CD335 /* libijg16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libijg16.a; sourceTree = "<group>"; };
 		C69348E71B649E62008CD335 /* liboflog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liboflog.a; sourceTree = "<group>"; };
 		C69348E81B649E62008CD335 /* libofstd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libofstd.a; sourceTree = "<group>"; };
-		C6EDB61F1B61D9C800796B1B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C6EDB6221B61DB3100796B1B /* I_000001.dcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = I_000001.dcm; sourceTree = "<group>"; };
 		C6EDB6231B61DB3100796B1B /* I_000002.dcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = I_000002.dcm; sourceTree = "<group>"; };
 		C6EDB6271B61E86C00796B1B /* dicom.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dicom.dic; sourceTree = "<group>"; };
@@ -590,6 +590,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61605C21CA5D13E003F5BE2 /* libz.tbd in Frameworks */,
 				C69348F61B649E62008CD335 /* libdcmtls.a in Frameworks */,
 				C69348FB1B649E62008CD335 /* libijg16.a in Frameworks */,
 				C69348ED1B649E62008CD335 /* libdcmimage.a in Frameworks */,
@@ -604,7 +605,6 @@
 				C69348F21B649E62008CD335 /* libdcmpstat.a in Frameworks */,
 				C69348F91B649E62008CD335 /* libijg8.a in Frameworks */,
 				C69348F31B649E62008CD335 /* libdcmqrdb.a in Frameworks */,
-				C6EDB6201B61D9C800796B1B /* libz.dylib in Frameworks */,
 				C69348F01B649E62008CD335 /* libdcmjpls.a in Frameworks */,
 				C69348F51B649E62008CD335 /* libdcmsr.a in Frameworks */,
 				C69348F11B649E62008CD335 /* libdcmnet.a in Frameworks */,
@@ -625,7 +625,7 @@
 		C61282801B61CCCA00058F88 = {
 			isa = PBXGroup;
 			children = (
-				C6EDB61F1B61D9C800796B1B /* libz.dylib */,
+				C61605C11CA5D13E003F5BE2 /* libz.tbd */,
 				C612828B1B61CCCA00058F88 /* DCMTKSample */,
 				C61282A51B61CCCB00058F88 /* DCMTKSampleTests */,
 				C612828A1B61CCCA00058F88 /* Products */,

@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
 
 @implementation ViewController
@@ -18,7 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [DicomUtil test];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *fullPath = [DicomUtil extractFirstFrame];
+    NSLog(@"%@", fullPath);
+    
+    self.imageView.image = [UIImage imageWithContentsOfFile:fullPath];
 }
 
 - (void)didReceiveMemoryWarning {
