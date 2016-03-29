@@ -21,7 +21,7 @@ You can test that the libraries include multiple architectures by running the fo
 
     file libdcmjpeg.a
     
-    libdcmjpeg.a: Mach-O universal binary with 5 architectures
+    libdcmjpeg.a: Mach-O universal binary with 3 architectures
     libdcmjpeg.a (for architecture armv7):	current ar archive random library
     libdcmjpeg.a (for architecture x86_64):	current ar archive random library
     libdcmjpeg.a (for architecture arm64):	current ar archive random library
