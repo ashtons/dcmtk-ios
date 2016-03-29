@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        DicomUtil.test()
+        let imagePath = DicomUtil.extractFirstFrame();
+        NSLog("%@", imagePath)
+        imageView.image = UIImage(contentsOfFile: imagePath)
     }
 
     override func didReceiveMemoryWarning() {
