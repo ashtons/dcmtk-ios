@@ -4746,6 +4746,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -4814,6 +4815,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -4876,6 +4878,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -4928,6 +4931,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -4995,6 +4999,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5054,6 +5059,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5113,6 +5119,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5180,6 +5187,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5247,6 +5255,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5315,6 +5324,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5382,6 +5392,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5450,6 +5461,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5518,6 +5530,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5585,6 +5598,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5644,6 +5658,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5712,6 +5727,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5780,6 +5796,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5847,6 +5864,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5914,6 +5932,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -5973,6 +5992,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6040,6 +6060,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6107,6 +6128,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6174,6 +6196,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6242,6 +6265,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6309,6 +6333,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6376,6 +6401,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6444,6 +6470,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6511,6 +6538,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6579,6 +6607,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6645,6 +6674,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -6698,6 +6728,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6757,6 +6788,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6824,6 +6856,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6859,6 +6892,7 @@
 		5942014FBD2D44FDB57D1DB3 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SYMROOT = ./xcode/build;
@@ -6901,6 +6935,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -6961,6 +6996,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7029,6 +7065,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7096,6 +7133,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7123,6 +7161,7 @@
 		6236DD16FB7C48E28F0B4C45 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SYMROOT = ./xcode/build;
@@ -7164,6 +7203,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7231,6 +7271,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7298,6 +7339,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7365,6 +7407,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7433,6 +7476,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7500,6 +7544,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7567,6 +7612,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7635,6 +7681,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7704,6 +7751,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7771,6 +7819,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7838,6 +7887,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7865,6 +7915,7 @@
 		79FF1BFE16924B3BA1BE016C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SYMROOT = ./xcode/build;
@@ -7907,6 +7958,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -7974,6 +8026,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8033,6 +8086,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8100,6 +8154,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8160,6 +8215,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8228,6 +8284,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8295,6 +8352,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8364,6 +8422,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8431,6 +8490,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8498,6 +8558,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8566,6 +8627,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8631,6 +8693,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -8683,6 +8746,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8750,6 +8814,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8817,6 +8882,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8852,6 +8918,7 @@
 		B77200D68B7A4F6ABBEB3FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SYMROOT = ./xcode/build;
@@ -8893,6 +8960,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -8960,6 +9028,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9019,6 +9088,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9084,6 +9154,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -9131,6 +9202,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -9177,6 +9249,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -9228,6 +9301,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9295,6 +9369,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9362,6 +9437,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9429,6 +9505,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9494,6 +9571,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -9541,6 +9619,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "  ";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -9592,6 +9671,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9659,6 +9739,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9727,6 +9808,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9794,6 +9876,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9861,6 +9944,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9928,6 +10012,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -9996,6 +10081,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -10055,6 +10141,7 @@
 					./dcmwlm/include,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
@@ -10123,6 +10210,7 @@
 					./dcmjpls/libcharls,
 				);
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = (
 					"-D_XOPEN_SOURCE_EXTENDED",
