@@ -33,13 +33,13 @@ cd $XCODE_DIR
 
 setenv_all
 
-xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos9.3' clean build ARCHS="armv7" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos' clean build ARCHS="armv7" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
 mv $IOS_OUTDIR/* $GLOBAL_OUTDIR/armv7/
 
-xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos9.3' clean build ARCHS="arm64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphoneos' clean build ARCHS="arm64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$IOS_OUTDIR
 mv $IOS_OUTDIR/* $GLOBAL_OUTDIR/arm64/
 
-xcodebuild -configuration 'MinSizeRel' -sdk 'iphonesimulator9.3' clean build ARCHS="x86_64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$SIM_OUTDIR
+xcodebuild -configuration 'MinSizeRel' -sdk 'iphonesimulator' clean build ARCHS="x86_64" ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR=$SIM_OUTDIR
 mv $SIM_OUTDIR/* $GLOBAL_OUTDIR/x86_64/
 
 create_outdir_lipo

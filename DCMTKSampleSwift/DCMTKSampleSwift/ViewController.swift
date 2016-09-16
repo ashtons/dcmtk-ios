@@ -15,9 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         DicomUtil.test()
-        let imagePath = DicomUtil.extractFirstFrame();
-        NSLog("%@", imagePath)
-        imageView.image = UIImage(contentsOfFile: imagePath)
+        let imagePath = DicomUtil.extractFirstFrame();       
+        imageView.image = UIImage(contentsOfFile: imagePath!)
     }
 
     override func didReceiveMemoryWarning() {
